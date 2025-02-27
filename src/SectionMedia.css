@@ -1,0 +1,123 @@
+
+@media(max-width:1385px)
+{
+    .Head
+    {
+        top:6.5%;
+    }
+
+    .TypeHead
+    {
+        top:-8.5%;
+
+    }
+
+    .Lottie1
+    {
+        top:5%;  
+        left:5%;
+    }
+
+}
+
+
+@media(max-width:1260px)
+{
+    .Head
+    {
+        top:6.5%;
+    }
+
+    .TypeHead
+    {
+        top:-8.8%;
+    }
+
+    .MiniSeection
+    {
+        height:60%;   
+    }
+
+
+}
+
+
+@media(max-width:1115px)
+{
+    .Head
+    {
+        top:12%;
+    }
+
+    .TypeHead
+    {
+        top:-1.5%;
+    }
+
+    .Lottie1
+    {
+        top:5%;   
+        left:5%;
+    }
+
+
+}
+
+@media (max-width:989px)
+{
+
+    .Head
+    {
+        top:9%;
+    }
+
+    .TypeHead
+    {
+        top: -5.1%;
+    }
+
+    .MiniSeection
+    {
+        height:50%;   
+    }
+
+}
+
+@media (max-width:865px)
+{
+    .Head
+    {
+        top:12.5%;
+    }
+
+    .TypeHead
+    {
+        top:0%;
+    }
+    .Lottie1
+    {
+        top:10%;
+    }
+
+}
+
+.temp
+{
+    position: fixed;
+    top:20%;
+}
+
+@media (min-height:700px)
+{
+
+    .Head
+    {
+        /* margin-top: 10%; */
+        /* margin-bottom: 7%; */
+    }
+
+    .TypeHead
+    {
+        
+    }
+}

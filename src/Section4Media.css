@@ -1,0 +1,17 @@
+
+@media (max-width:1270px)
+{
+.CardCollection
+{
+top:36vh;
+}
+}
+
+
+@media (max-width:1070px)
+{
+    .CardCollection
+    {
+    top:30vh;
+    }
+}

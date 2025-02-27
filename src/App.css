@@ -36,3 +36,152 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.font1
+{
+  font-family: "Anton SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7.2rem;
+  line-height: 1;
+  text-align: left;
+}
+
+.font2
+{
+  font-family: "Anton SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.8rem !important;
+  line-height: 1;
+  text-align: left;
+}
+
+.font3
+{
+  text-align: left;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+
+
+
+body{
+  /* width:94vw; */
+  overflow-x: hidden;
+  background: #e0e0e0;
+}
+
+
+
+@media(max-width:1385px)
+{
+
+  .font1
+  {
+    font-size: 6.5rem;
+  }
+
+  .font2
+  {
+    font-size: 3.5rem !important;
+  }
+
+}
+
+@media(max-width:1260px)
+{
+
+
+  .font1
+  {
+    font-size: 5.8rem;
+  }
+
+  .font2
+  {
+    font-size: 3.2rem !important;
+  }
+
+}
+
+@media(max-width:1115px)
+{
+
+
+  .font1
+  {
+    font-size: 5.1rem;
+  }
+
+  .font2
+  {
+    font-size: 2.8rem !important;
+  }
+
+
+}
+
+@media (max-width:989px)
+{
+  .font1
+  {
+    font-size: 4.5rem;
+  }
+
+  .font2
+  {
+    font-size: 2.3rem !important;
+  }
+
+}
+
+
+@media (max-width:865px)
+{
+  .font1
+  {
+    font-size: 4.0rem;
+  }
+
+  .font2
+  {
+    font-size: 2.0rem !important;
+  }
+
+}
+
+
+@media (max-width:1310px)
+{
+  .font3
+  {
+    font-size:0.9rem;
+  }
+}
+
+@media (max-width:1160px)
+{
+  .font3
+  {
+    font-size:0.83rem;
+  }
+}
+
+
+@media (max-width:961px)
+{
+  .font3
+  {
+    font-size:0.7rem;
+  }
+}
