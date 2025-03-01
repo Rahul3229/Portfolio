@@ -2,40 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
 
@@ -48,8 +14,9 @@ body::-webkit-scrollbar {
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 7.2rem;
-  line-height: 1;
+  font-size: 9.5rem;
+  line-height: 0.98;
+  letter-spacing: -3px;
   text-align: left;
 }
 
@@ -58,7 +25,7 @@ body::-webkit-scrollbar {
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 3.8rem !important;
+  font-size: 4.8rem !important;
   line-height: 1;
   text-align: left;
 }
@@ -76,16 +43,99 @@ body::-webkit-scrollbar {
 
 
 body{
-  /* width:94vw; */
   overflow-x: hidden;
   background: #e0e0e0;
 }
 
 
-
-@media(max-width:1385px)
+@media(max-height:865px)
 {
 
+  .font1
+  {
+    font-size: 9.0rem;
+  }
+
+  .font2
+  {
+    font-size: 4.4rem !important;
+  }  
+
+}
+
+
+@media(max-height:745px)
+{
+
+  .font1
+  {
+    font-size: 8.5rem;
+  }
+
+  .font2
+  {
+    font-size: 4.2rem !important;
+  }  
+
+}
+
+
+
+@media(max-width:1823px)
+{
+  .font1
+  {
+    font-size: 9.0rem;
+  }
+
+  .font2
+  {
+    font-size: 4.4rem !important;
+  }
+}
+
+@media(max-width:1722px)
+{
+  .font1
+  {
+    font-size: 8.5rem;
+  }
+
+  .font2
+  {
+    font-size: 4rem !important;
+  }
+}
+
+
+@media(max-width:1620px)
+{
+  .font1
+  {
+    font-size: 8.0rem;
+  }
+
+  .font2
+  {
+    font-size: 3.6rem !important;
+  }
+}
+
+@media(max-width:1519px)
+{
+  .font1
+  {
+    font-size: 7.0rem;
+  }
+
+  .font2
+  {
+    font-size: 3.2rem !important;
+  }
+}
+
+@media(max-width:1449px)
+{
   .font1
   {
     font-size: 6.5rem;
@@ -93,14 +143,27 @@ body{
 
   .font2
   {
-    font-size: 3.5rem !important;
+    font-size: 2.8rem !important;
+  }
+}
+
+@media(max-width:1339px)
+{
+
+  .font1
+  {
+    font-size: 6.0rem;
+  }
+
+  .font2
+  {
+    font-size: 2.6rem !important;
   }
 
 }
 
-@media(max-width:1260px)
+@media(max-width:1229px)
 {
-
 
   .font1
   {
@@ -109,57 +172,98 @@ body{
 
   .font2
   {
-    font-size: 3.2rem !important;
+    font-size: 2.6rem !important;
   }
 
 }
 
-@media(max-width:1115px)
-{
 
+@media(max-width:1184px)
+{
 
   .font1
   {
-    font-size: 5.1rem;
+    font-size: 5.6rem;
   }
 
   .font2
   {
-    font-size: 2.8rem !important;
+    font-size: 2.5rem !important;
   }
-
 
 }
 
-@media (max-width:989px)
+
+@media(max-width:1139px)
+{
+
+  .font1
+  {
+    font-size: 5.4rem;
+  }
+
+  .font2
+  {
+    font-size: 2.5rem !important;
+  }
+
+}
+
+
+
+@media(max-width:1095px)
 {
   .font1
   {
-    font-size: 4.5rem;
+    font-size: 5.0rem;
+  }
+
+  .font2
+  {
+    font-size: 2.4rem !important;
+  }
+}
+
+  
+
+@media(max-width:1007px)
+{
+
+  .font1
+  {
+    font-size: 4.8rem;
   }
 
   .font2
   {
     font-size: 2.3rem !important;
-  }
+  }  
 
 }
 
 
-@media (max-width:865px)
+@media(max-width:1008px)
 {
+
   .font1
   {
-    font-size: 4.0rem;
+    font-size: 4.6rem;
   }
 
   .font2
   {
-    font-size: 2.0rem !important;
-  }
+    font-size: 2.2rem !important;
+  }  
 
 }
 
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media (max-width:1310px)
 {

@@ -1,123 +1,422 @@
 
-@media(max-width:1385px)
-{
-    .Head
-    {
-        top:6.5%;
-    }
-
-    .TypeHead
-    {
-        top:-8.5%;
-
-    }
-
-    .Lottie1
-    {
-        top:5%;  
-        left:5%;
-    }
-
-}
 
 
-@media(max-width:1260px)
-{
-    .Head
-    {
-        top:6.5%;
-    }
 
-    .TypeHead
-    {
-        top:-8.8%;
-    }
-
-    .MiniSeection
-    {
-        height:60%;   
-    }
-
-
-}
-
-
-@media(max-width:1115px)
-{
-    .Head
-    {
-        top:12%;
-    }
-
-    .TypeHead
-    {
-        top:-1.5%;
-    }
-
-    .Lottie1
-    {
-        top:5%;   
-        left:5%;
-    }
-
-
-}
-
-@media (max-width:989px)
+@media(min-width:1920px)
 {
 
     .Head
     {
-        top:9%;
-    }
-
-    .TypeHead
-    {
-        top: -5.1%;
-    }
-
-    .MiniSeection
-    {
-        height:50%;   
-    }
-
-}
-
-@media (max-width:865px)
-{
-    .Head
-    {
-        top:12.5%;
-    }
-
-    .TypeHead
-    {
-        top:0%;
-    }
-    .Lottie1
-    {
-        top:10%;
-    }
-
-}
-
-.temp
-{
-    position: fixed;
-    top:20%;
-}
-
-@media (min-height:700px)
-{
-
-    .Head
-    {
-        /* margin-top: 10%; */
-        /* margin-bottom: 7%; */
+        /* top:2.5%; */
     }
 
     .TypeHead
     {
         
     }
+
+    .Lottie1
+    {
+        top:-0%;  
+        left:5%;
+    }
+
 }
+
+
+@media(max-width:1823px)
+{
+    .Head
+    {
+        margin-top: 16%;
+    }
+}
+
+@media(max-width:1722px)
+{
+    .Head
+    {
+        margin-top: 18.5%;
+    }
+    .Lottie1
+    {
+        margin-top: 4%;
+    }
+    .TypeHead
+    {
+    
+    margin-top:-11.4%;
+    }
+}
+
+@media(max-width:1620px)
+{
+    .Head
+    {
+        margin-top: 20%;
+    }
+    .Lottie1
+    {
+        margin-top: 4%;
+    }
+}
+
+@media(max-width:1519px)
+{
+
+    .Head
+    {
+        margin-top: 28%;
+    }
+    .Lottie1
+    {
+        margin-top: 4%;
+        width:50%;
+    }
+
+    .TypeHead
+    {
+    margin-top:-12%;
+    }
+
+}
+
+
+
+@media(max-width:1449px)
+{
+    .Head
+    {
+        margin-top: 31.5%;
+    }
+    .Lottie1
+    {
+        margin-top: 6%;
+    }
+    .TypeHead
+    {
+    
+    margin-top:-12.3%;
+    }
+}
+
+@media(max-width:1339px)
+{   
+     .Head
+    {
+        margin-top: 23.3%;
+    }
+    .TypeHead
+    {
+    margin-top:-11.9%;
+    }
+    .Lottie1
+    {
+        margin-top: 2.5%;
+    }
+
+    .MiniSeection
+    {
+        height:55%;  
+        top:23.5%; 
+    }
+
+}
+/* //////////////////////////////////////////////////// */
+@media(max-width:1261px)
+{
+    .Head
+    {
+        margin-top: 15.5%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.3%;
+    }
+
+    .MiniSeection
+    {
+        height:45%;  
+        top:23.5%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: -2%;
+    }
+}
+
+
+
+@media(max-width:1184px)
+{
+    .Head
+    {
+        margin-top: 18%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-11.7%;
+    }
+
+    .MiniSeection
+    {
+         
+        top:23.5%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: 1%;
+    }
+}
+
+
+@media(max-width:1139px)
+{
+    .Head
+    {
+        margin-top: 19%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-11.9%;
+    }
+
+    .MiniSeection
+    {
+        top:19%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: 1.5%;
+    }
+}
+
+
+@media(max-width:1095px)
+{
+    .Head
+    {
+        margin-top: 17%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12%;
+    }
+
+    .MiniSeection
+    {
+        height:40%;  
+        top:19%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: 0%;
+    }
+}
+
+
+
+@media(max-width:1008px)
+{
+    .Head
+    {
+        margin-top: 21.2%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.3%;
+    }
+
+    .MiniSeection
+    {
+        height:40%;  
+        top:19%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: 2.5%;
+    }
+}
+
+
+
+
+
+
+/* @media(min-height:915px)
+{
+    .Head
+    {
+        margin-top: 13.5%;
+    }
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+} */
+
+/* 
+@media(max-height:915px)
+{
+    .Head
+    {
+        margin-top: 12%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+
+    .MiniSeection
+    {
+        
+        top:24.3%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: 1.0%;
+    }
+}
+
+
+@media(max-height:900px)
+{
+    .Head
+    {
+        margin-top: 10%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+
+    .MiniSeection
+    {
+        
+        top:24.3%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: 0.5%;
+    }
+}
+
+
+@media(max-height:820px)
+{
+    .Head
+    {
+        margin-top: 8.3%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+
+    .MiniSeection
+    {
+        
+        top:24.3%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: -1.0%;
+    }
+}
+
+
+
+
+@media(max-height:785px)
+{
+    .Head
+    {
+        margin-top: 7.5%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+
+    .MiniSeection
+    {
+        
+        top:24.3%; 
+    }
+
+    .Lottie1
+    {
+        margin-top: -1.7%;
+    }
+}
+
+
+@media(max-height:745px)
+{
+    .Head
+    {
+        margin-top: 7.5%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+
+    .MiniSeection
+    {
+        
+        top:24.3%; 
+        width:75%;
+    }
+
+    .Lottie1
+    {
+        margin-top: -1.5%;
+        width:41%;
+    }
+}
+
+
+@media(max-height:715px)
+{
+    .Head
+    {
+        margin-top: 6.5%;
+    }
+
+    .TypeHead
+    {
+        margin-top:-12.6%;
+    }
+
+    .MiniSeection
+    {
+        
+        top:24.3%; 
+        width:75%;
+    }
+
+    .Lottie1
+    {
+        margin-top: -2.5%;
+        width:41%;
+    }
+} */

@@ -27,11 +27,8 @@ import Section3SVG from "./Jsons/json9.json";
 
 
 import SVG1 from "./Jsons/json27.json";
-
 import SVG2 from "./Jsons/json2.json";
-
 import SVG3 from "./Jsons/json8.json";
-
 import SVG4 from "./Jsons/json25.json";
 
 import Card from "./Card/Card.js";
@@ -42,19 +39,27 @@ import Cards from "./Assets/Cards.json";
 
 import LogoCard from "./LogoCard.js";
 
-import Active from "./Assets/react.svg";
-
-import Honda from "./Assets/vuejs.svg";
-
-import Dell from "./Assets/tailwindcss.png";
-
-import Safelite from "./Assets/mui3.png";
-
+import React from "./Assets/react1.svg";
+import Vue from "./Assets/vuejs.svg";
+import TailwindCSS from "./Assets/tailwindcss.png";
+import MUI from "./Assets/mui3.png";
 import SpringBoot from "./Assets/spring.png";
-
 import AWS from "./Assets/aws.svg";
+import TypeScript from "./Assets/typescript.svg";
+import Git from "./Assets/git.svg";
+import GitHub from "./Assets/github.svg";
+import Postman from "./Assets/postman.svg";
+import Figma from "./Assets/figma.svg";
+import JavaScript from "./Assets/javascript.svg";
+import Java from "./Assets/java.svg";
+import Oracle from "./Assets/oracle.svg";
+
+
+
+
 
 import Marquee from "react-fast-marquee";
+
 
 import Section6SVG from "./Jsons/json33.json";
 
@@ -109,12 +114,15 @@ return (
       <p>Width: {viewportWidth}px</p>
       <p>Height: {viewportHeight}px</p>
     </div>
+
+
+
+    {/* ////////////////////////////////////////////////////////////////////////// */}
     <div className="MiniSeection">
-    
     <div className="Heading">
     <h1 className="Head font1">WHAT CAN I BUILD FOR YOU?</h1>
     <h2 className="TypeHead font2">
-        <span>
+    <span>
     <ReactTyped
     strings={[
         "AWS CLOUD APPLICATIONS",
@@ -128,15 +136,13 @@ return (
     ></ ReactTyped>
     </span>
     </h2>
-
-   
     </div>
-    
     <div className="Lottie1">
     <Lottie animationData={MainAnimation} loop={true} />
     </div>
-    
-    </div>    
+    </div>
+
+    {/* //////////////////////////////////////////////////////////////////////     */}
 
     </div>
 
@@ -203,12 +209,13 @@ return (
 <Marquee speed={60} gradient={false}>
 <div className="Logos">
 
-<LogoCard  Img={Active}/>    
-<LogoCard  Img={Honda}/>
-<LogoCard  Img={Dell}/>  
-<LogoCard  Img={Safelite}/>  
+<LogoCard  Img={React}/>    
+<LogoCard  Img={Vue}/>
+<LogoCard  Img={Oracle}/>  
+<LogoCard  Img={Java}/>  
 <LogoCard  Img={SpringBoot}/>  
 <LogoCard  Img={AWS}/>  
+
    
 </div> 
 </Marquee>     
@@ -218,12 +225,12 @@ return (
 <Marquee speed={60} gradient={false} direction="right">
 <div className="Logos">
 
-<LogoCard  Img={Active}/>    
-<LogoCard  Img={Honda}/>
-<LogoCard  Img={Dell}/>  
-<LogoCard  Img={Safelite}/>  
-<LogoCard  Img={SpringBoot}/>  
-<LogoCard  Img={AWS}/>  
+<LogoCard  Img={Figma}/>    
+<LogoCard  Img={Postman}/>
+<LogoCard  Img={Git}/>  
+<LogoCard  Img={GitHub}/>  
+<LogoCard  Img={MUI}/>  
+<LogoCard  Img={TailwindCSS}/>  
    
 </div> 
 </Marquee>     
