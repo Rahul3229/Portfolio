@@ -1,0 +1,357 @@
+
+.temp
+{
+    position: fixed;
+    margin-top: 10%;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////----------Section1------------////////////////////////////////////// */
+.Section1
+{
+    width:80vw;
+    height:65vh;
+    border:0.1rem solid red;
+    margin:auto;
+    position: relative;
+    top:27vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Section1Heading
+{
+    width: 45%;
+    border:0.1rem solid black;
+    padding-left: 1%;
+    padding-top:0%;
+    display: grid;
+    place-items: center; 
+    height: 65vh; 
+}
+
+.Section1SVG1
+{
+width:45%;
+border:0.1rem dotted black;
+display: flex;
+justify-items: center;
+}
+
+span
+{
+    color:#f1c40f;
+}
+
+.Section1Typed
+{
+
+}
+
+.Section1Head
+{
+
+}
+
+.Section1TypeHead
+{
+
+}
+/* //////////////////////////////////////////////////////////////////--------------- Section1 ---------------------/////////////////////////////////////////////// */
+
+
+
+
+/* ////////////////////////////////////////////////////////////////----------------- Section2 --------------------////////////////////////////////////////////////// */
+.Section2
+{
+    width:80vw;
+    height:60vh;
+    border:0.1rem solid red;
+    margin:auto;
+    position: relative;
+    top:40vh;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.Section2SVG2
+{
+    width:45%;
+    border:0.1rem dotted black;
+    display: flex;
+    justify-items: center;
+}
+
+.Section2Font
+{
+    color:#e0e0e0;
+    font-size: 5rem;
+}
+
+.Section2Text
+{   width:40%;
+    display: grid;
+    align-items: center; 
+   
+    height: 60vh; 
+    
+    
+    padding-left: 1%;
+    text-align: left;
+    border: 0.1rem dotted red;
+    transition: 1s;
+}
+
+.Section2Text:hover
+{
+    transition: 2s;
+    background-color: #f1c40f;
+}
+
+.Section2SubText
+{
+    text-align: left;
+    width: 120%;
+    font-size: 0.9rem;
+
+    
+}
+
+.Section2Heading
+{
+    text-align: left !important;
+    font-size: 5.0rem;
+    width:80%;
+    border:0.1rem solid red;
+}
+
+@media(max-width:1629px)
+{
+    .Section2Heading
+    {
+        font-size: 4.8rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 4.8rem;
+    }
+}
+
+@media(max-width:1570px)
+{
+    .Section2Heading
+    {
+        font-size: 4.6rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 4.6rem;
+    }
+}
+
+@media(max-width:1503px)
+{
+    .Section2Heading
+    {
+        font-size: 4.4rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 4.4rem;
+    }
+}
+
+@media(max-width:1445px)
+{
+    .Section2Heading
+    {
+        font-size: 4.2rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 4.2rem;
+    }
+}
+
+
+@media(max-width:1376px)
+{
+    .Section2Heading
+    {
+        font-size: 4.1rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 4.1rem;
+    }
+}
+
+
+@media(max-width:1345px)
+{
+    .Section2Heading
+    {
+        font-size: 4.0rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 4.0rem;
+    }
+}
+
+@media(max-width:1311px)
+{
+    .Section2Heading
+    {
+        font-size: 3.8rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 3.8rem;
+    }
+}
+
+
+@media(max-width:1246px)
+{
+    .Section2Heading
+    {
+        font-size: 3.6rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 3.6rem;
+    }
+}
+
+
+@media(max-width:1182px)
+{
+    .Section2Heading
+    {
+        font-size: 3.4rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 3.4rem;
+    }
+}
+
+
+@media(max-width:1120px)
+{
+    .Section2Heading
+    {
+        font-size: 3.2rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media(max-width:1052px)
+{
+    .Section2Heading
+    {
+        font-size: 3.0rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 3.0rem;
+    }
+}
+
+
+@media(max-width:991px)
+{
+    .Section2Heading
+    {
+        font-size: 2.8rem;
+    }
+
+    .Section2Font
+    {
+        font-size: 2.8rem;
+    }
+}
+
+
+/* /////////////////////////////////////////////////////////////  ----------------------Section2 -------------------- ////////////////////////////////////////////// */
+
+
+.section3
+{
+    height:60vh;
+    width:80vw;
+    margin:auto;
+    border:0.06rem solid red;
+    position: relative;
+    top:55vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+.section3Text
+{
+    width:40%;
+    height:60vh;
+    border:0.1rem solid black;
+    transition:1s;
+
+
+    display: grid;
+    align-items: center;     
+    padding-left: 1%;
+    text-align: left;
+}
+
+.section3SVG
+{
+    width:45%;
+    height:60vh;
+    border:0.1rem solid black;
+}
+
+
+.section3Heading
+{
+    font-size: 5rem;
+}
+
+.section3Font
+{
+    color:#e0e0e0;
+    font-size: 5rem;
+}
+
+.section3Text:hover
+{
+    background-color:#f1c40f;
+    transition: 2s;
+}
+
+.section3Subtext
+{
+    font-size: 0.9rem;
+}
+
+.section3Box
+{
+    border:0.1rem red solid;
+}

@@ -8,7 +8,6 @@
 {
     height:100vh;
     background: #e0e0e0;
-
 }
 
 .MiniSeection
@@ -25,8 +24,13 @@
  .Heading
 {
     width:50vw;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    height:64vh;
+    padding-left: 2%;
+    
+    display: inline-block;
+    vertical-align: middle;
+
+    border: 0.1rem solid red;
     border-radius: 20px;
     background: #e0e0e0;
     box-shadow: inset 6px 6px 5px #b8b8b8,
@@ -60,13 +64,14 @@ span
 
 .TypeHead
 {
-    
-   
+    margin-top:-11%;
 }
 
 .Head
 {
 
+    width:45vw;
+    border: 0.1rem solid black;
 }
 
 /* //////////////////////////////////           Section1-End         ///////////////////////////// */

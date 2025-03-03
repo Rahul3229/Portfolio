@@ -7,12 +7,19 @@ import Exp from "./Exp.js";
 
 import Nav from "./Nav.js";
 
+import Landing from "./Landing/Landing.js";
+
 function App() {
   return (
     <div className="App">
       
+
       <Nav />
-      <Section />
+
+      <Landing />
+
+
+      {/* <Section /> */}
       
       {/* <Exp /> */}
     </div>

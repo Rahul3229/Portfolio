@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 9.5rem;
+  font-size: 6.5rem;
   line-height: 0.98;
   letter-spacing: -3px;
   text-align: left;
@@ -25,8 +25,9 @@ body::-webkit-scrollbar {
   font-family: "Anton SC", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4.8rem !important;
-  line-height: 1;
+  font-size: 3rem;
+  letter-spacing:0.5px ;
+  line-height: 0.98;
   text-align: left;
 }
 
@@ -48,215 +49,165 @@ body{
 }
 
 
-@media(max-height:865px)
+
+
+
+
+
+@media(max-width:1599px)
 {
-
-  .font1
-  {
-    font-size: 9.0rem;
-  }
-
-  .font2
-  {
-    font-size: 4.4rem !important;
-  }  
-
+.font1
+{
+  font-size: 6.2rem;
+}
 }
 
 
-@media(max-height:745px)
+@media(max-width:1529px)
 {
+.font1
+{
+  font-size: 6.0rem;
+}
+}
 
-  .font1
-  {
-    font-size: 8.5rem;
-  }
+@media(max-width:1479px)
+{
+.font1
+{
+  font-size: 5.9rem;
+}
+}
 
-  .font2
-  {
-    font-size: 4.2rem !important;
-  }  
-
+@media(max-width:1430px)
+{
+.font1
+{
+  font-size: 5.7rem;
+}
+.font2
+{
+  font-size: 2.8rem;
+}
 }
 
 
-
-@media(max-width:1823px)
+@media(max-width:1390px)
 {
-  .font1
-  {
-    font-size: 9.0rem;
-  }
-
-  .font2
-  {
-    font-size: 4.4rem !important;
-  }
+.font1
+{
+  font-size: 5.5rem;
+}
+.font2
+{
+  font-size: 2.8rem;
+}
 }
 
-@media(max-width:1722px)
-{
-  .font1
-  {
-    font-size: 8.5rem;
-  }
-
-  .font2
-  {
-    font-size: 4rem !important;
-  }
-}
-
-
-@media(max-width:1620px)
-{
-  .font1
-  {
-    font-size: 8.0rem;
-  }
-
-  .font2
-  {
-    font-size: 3.6rem !important;
-  }
-}
-
-@media(max-width:1519px)
-{
-  .font1
-  {
-    font-size: 7.0rem;
-  }
-
-  .font2
-  {
-    font-size: 3.2rem !important;
-  }
-}
-
-@media(max-width:1449px)
-{
-  .font1
-  {
-    font-size: 6.5rem;
-  }
-
-  .font2
-  {
-    font-size: 2.8rem !important;
-  }
-}
 
 @media(max-width:1339px)
 {
-
-  .font1
-  {
-    font-size: 6.0rem;
-  }
-
-  .font2
-  {
-    font-size: 2.6rem !important;
-  }
-
-}
-
-@media(max-width:1229px)
+.font1
 {
-
-  .font1
-  {
-    font-size: 5.8rem;
-  }
-
-  .font2
-  {
-    font-size: 2.6rem !important;
-  }
-
+  font-size: 5.3rem;
 }
-
-
-@media(max-width:1184px)
+.font2
 {
-
-  .font1
-  {
-    font-size: 5.6rem;
-  }
-
-  .font2
-  {
-    font-size: 2.5rem !important;
-  }
-
+  font-size: 2.6rem;
+}
 }
 
-
-@media(max-width:1139px)
+@media(max-width:1283px)
 {
+.font1
+{
+  font-size: 5.1rem;
+}
+.font2
+{
+  font-size: 2.6rem;
+}
+}
 
-  .font1
-  {
-    font-size: 5.4rem;
-  }
 
-  .font2
-  {
-    font-size: 2.5rem !important;
-  }
-
+@media(max-width:1239px)
+{
+.font1
+{
+  font-size: 4.9rem;
+}
+.font2
+{
+  font-size: 2.4rem;
+}
 }
 
 
 
-@media(max-width:1095px)
+@media(max-width:1193px)
+{
+.font1
+{
+  font-size: 4.6rem;
+}
+.font2
+{
+  font-size: 2.2rem;
+}
+}
+
+
+
+@media(max-width:1105px)
+{
+.font1
+{
+  font-size: 4.4rem;
+}
+.font2
+{
+  font-size: 2.2rem;
+}
+}
+
+
+
+@media(max-width:1056px)
+{
+.font1
+{
+  font-size: 4.1rem;
+}
+.font2
+{
+  font-size: 2.0rem;
+}
+}
+
+@media(max-width:1000px)
 {
   .font1
   {
-    font-size: 5.0rem;
+    font-size: 3.9rem;
   }
-
   .font2
   {
-    font-size: 2.4rem !important;
+    font-size: 1.8rem;
   }
-}
+  }
 
-  
-
-@media(max-width:1007px)
+/* @media(max-width:1339px)
 {
-
-  .font1
-  {
-    font-size: 4.8rem;
-  }
-
-  .font2
-  {
-    font-size: 2.3rem !important;
-  }  
-
-}
-
-
-@media(max-width:1008px)
+.font1
 {
-
-  .font1
-  {
-    font-size: 4.6rem;
-  }
-
-  .font2
-  {
-    font-size: 2.2rem !important;
-  }  
-
+  font-size: 5.1rem;
 }
-
+.font2
+{
+  font-size: 2.6rem;
+}
+}  */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 
@@ -265,8 +216,8 @@ body{
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-@media (max-width:1310px)
-{
+@media (max-width:1310px) 
+ {
   .font3
   {
     font-size:0.9rem;
@@ -288,4 +239,4 @@ body{
   {
     font-size:0.7rem;
   }
-}
+} 
