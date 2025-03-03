@@ -37,6 +37,7 @@ width:45%;
 border:0.1rem dotted black;
 display: flex;
 justify-items: center;
+justify-content: center;
 }
 
 span
@@ -83,13 +84,10 @@ span
     border:0.1rem dotted black;
     display: flex;
     justify-items: center;
+    /* justify-items: center; */
+    justify-content: center;
 }
 
-.Section2Font
-{
-    color:#e0e0e0;
-    font-size: 5rem;
-}
 
 .Section2Text
 {   width:40%;
@@ -119,8 +117,10 @@ span
 
     
 }
+/* //////////////////////////////////--------------------------------------------Section2----------------------------------------------/////////////////////////////////////////// */
 
-.Section2Heading
+/* //////////////////////////////// Media ////////////////////////////////////////////// */
+.SectionHeading
 {
     text-align: left !important;
     font-size: 5.0rem;
@@ -128,14 +128,21 @@ span
     border:0.1rem solid red;
 }
 
+.SectionSubHeading
+{
+    color:#e0e0e0;
+    font-size: 5rem;
+}
+
+
 @media(max-width:1629px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 4.8rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 4.8rem;
     }
@@ -143,12 +150,12 @@ span
 
 @media(max-width:1570px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 4.6rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 4.6rem;
     }
@@ -156,12 +163,12 @@ span
 
 @media(max-width:1503px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 4.4rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 4.4rem;
     }
@@ -169,12 +176,12 @@ span
 
 @media(max-width:1445px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 4.2rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 4.2rem;
     }
@@ -183,12 +190,12 @@ span
 
 @media(max-width:1376px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 4.1rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 4.1rem;
     }
@@ -197,12 +204,12 @@ span
 
 @media(max-width:1345px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 4.0rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 4.0rem;
     }
@@ -210,12 +217,12 @@ span
 
 @media(max-width:1311px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 3.8rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 3.8rem;
     }
@@ -224,12 +231,12 @@ span
 
 @media(max-width:1246px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 3.6rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 3.6rem;
     }
@@ -238,12 +245,12 @@ span
 
 @media(max-width:1182px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 3.4rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 3.4rem;
     }
@@ -252,12 +259,12 @@ span
 
 @media(max-width:1120px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 3.2rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 3.2rem;
     }
@@ -266,12 +273,12 @@ span
 
 @media(max-width:1052px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 3.0rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 3.0rem;
     }
@@ -280,19 +287,19 @@ span
 
 @media(max-width:991px)
 {
-    .Section2Heading
+    .SectionHeading
     {
         font-size: 2.8rem;
     }
 
-    .Section2Font
+    .SectionSubHeading
     {
         font-size: 2.8rem;
     }
 }
 
 
-/* /////////////////////////////////////////////////////////////  ----------------------Section2 -------------------- ////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////  ---------------------- Media -------------------- ////////////////////////////////////////////// */
 
 
 .section3
@@ -310,13 +317,13 @@ span
 .section3Text
 {
     width:40%;
-    height:60vh;
+    height:62vh;
     border:0.1rem solid black;
     transition:1s;
 
-
     display: grid;
-    align-items: center;     
+    align-items: center;   
+  
     padding-left: 1%;
     text-align: left;
 }
@@ -325,6 +332,9 @@ span
 {
     width:45%;
     height:60vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
     border:0.1rem solid black;
 }
 
@@ -353,5 +363,153 @@ span
 
 .section3Box
 {
-    border:0.1rem red solid;
+    /* border:0.1rem red solid; */
+    width:120%;
+}
+
+.ImgPng
+{
+    height:60vh;
+    width:30vw;
+    transition: transform 0.3s ease-in-out;
+    animation: hoverAnimation 3.6s ease-in-out forwards infinite;
+}
+
+
+@keyframes hoverAnimation {
+    0% {
+        transform: scale(1);
+        
+    }
+    50% {
+        transform: scale(1.1);
+        
+    }
+    100% {
+        transform: scale(1);
+        
+    }
+}
+
+
+@media(max-height:745px)
+{
+    .section3Box
+    {
+        margin-top:-1%;
+    }
+}
+
+@media(max-height:725px)
+{
+    .section3Box
+    {
+        margin-top:-2%;
+    }
+}
+
+@media(max-height:715px)
+{
+    .section3Box
+    {
+        margin-top:-3%;
+    }
+}
+
+@media(max-width:1580px)
+{
+    .ImgPng
+    {
+        height:53vh;
+        width:30vw;
+        margin-top:6%;
+    }
+}
+
+@media(max-width:1438px)
+{
+    .ImgPng
+    {
+        height:49vh;
+        width:30vw;
+        margin-top:10%;
+    }
+}
+
+@media(max-width:1355px)
+{
+    .ImgPng
+    {
+        height:46vh;
+        width:30vw;
+        margin-top:13%;
+    }
+}
+
+@media(max-width:1295px)
+{
+    .ImgPng
+    {
+        height:43vh;
+        width:30vw;
+        margin-top:17%;
+    }
+}
+
+
+@media(max-width:1200px)
+{
+    .ImgPng
+    {
+        height:41vh;
+        width:30vw;
+        margin-top:20%;
+    }
+}
+
+
+@media(max-width:1135px)
+{
+    .ImgPng
+    {
+        height:39vh;
+        width:30vw;
+        margin-top:23%;
+    }
+}
+
+@media(max-width:1075px)
+{
+    .ImgPng
+    {
+        height:37vh;
+        width:30vw;
+        margin-top:26%;
+    }
+}
+
+@media(max-width:1025px)
+{
+    .ImgPng
+    {
+        height:35vh;
+        width:30vw;
+        margin-top:28%;
+    }
+}
+
+@media (max-height:740px)
+{
+    .section3Box
+    {
+        margin-top: -3%;
+    }
+}
+
+@media (max-height:716px)
+{
+    .section3Box
+    {
+        margin-top: -5%;
+    }
 }
