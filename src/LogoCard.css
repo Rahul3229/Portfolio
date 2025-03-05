@@ -1,6 +1,5 @@
 .LogoCard
 {
-
     height:15vh;
     width:15vw;
     border-radius: 30px;
@@ -8,16 +7,14 @@
     box-shadow:  9px 9px 10px #cecece,
                  -9px -9px 10px #f2f2f2;
     padding: 2%;
-    margin-top: 3.5%;
-    /* margin-bottom: 4%; */
+    display: grid;
+    place-items: center;
     transition: 2s;
-    /* margin-left: 0% !important; */
 }
 
 
 .LogoCard:hover
 {
-
 transition: 1s;
 background-color: #f1c40f;
 box-shadow:  40px 40px 46px #9d9d9d,
@@ -31,11 +28,10 @@ transform: scale(1.1);
 {
     height:12vh;
     width:10vw;
-    margin-top: 7%;
 }
 
 
-@media (max-width:1406px)
+/* @media (max-width:1406px)
 {
     .LogoCard
     {
@@ -79,4 +75,4 @@ transform: scale(1.1);
         width:8vw;
         margin-top: 14%;
     }
-}
+} */

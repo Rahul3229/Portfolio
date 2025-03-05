@@ -9,13 +9,16 @@ export default function Card({jsonSRC,Head,Para})
     return (
         <>
         <div className="Card">
+
         <div className="CardSVG">
-        <Lottie animationData={jsonSRC} loop={true} />
+        <Lottie animationData={jsonSRC} loop={true} className="LottieSVG"/>
         </div>
+
         <div className="CardHeadPara">
         <h1 className="CardHead">{Head}</h1>
         <p className="CardPara">{Para}</p>
         </div>
+        
         </div>
         </>
     )

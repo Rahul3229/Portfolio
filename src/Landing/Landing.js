@@ -3,11 +3,37 @@
 import "./Landing.css";
 import MainAnimation from "../Jsons/json1.json";
 import Section2SVG from "../Jsons/json11.json";
+import SVG1 from "../Jsons/json27.json";
+import SVG2 from "../Jsons/json2.json";
+import SVG3 from "../Jsons/json8.json";
+import SVG4 from "../Jsons/json25.json";
 import Lottie from "lottie-react";
 import Marquee from "react-fast-marquee";
 import {ReactTyped} from 'react-typed';
 import {useState, useEffect} from 'react';
 import AWSBadge from "../Assets/AWS-badge.png";
+
+import Card from "../Card/Card.js";
+
+import LogoCard from ".././LogoCard.js";
+
+import React from "../Assets/react1.svg";
+import Vue from "../Assets/vuejs.svg";
+import TailwindCSS from "../Assets/tailwindcss.png";
+import MUI from "../Assets/mui3.png";
+import SpringBoot from "../Assets/spring.png";
+import AWS from "../Assets/aws.svg";
+import TypeScript from "../Assets/typescript.svg";
+import Git from "../Assets/git.svg";
+import GitHub from "../Assets/github.svg";
+import Postman from "../Assets/postman.svg";
+import Figma from "../Assets/figma.svg";
+import JavaScript from "../Assets/javascript.svg";
+import Java from "../Assets/java.svg";
+import Oracle from "../Assets/oracle.svg";
+
+import BigSVG from "../Jsons/json19.json"
+
 export default function Landing()
 {
 
@@ -15,6 +41,17 @@ export default function Landing()
             const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
             const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
           
+            const Head1="WEB-DESIGNING";
+            const Head2="TURNING DESIGNS INTO CODE";
+            const Head3="TALKING TO BACK-END CODE";
+            const Head4="MANAGING DATABASES";
+
+            const Para1="Our ERP management services focus on delivering expert support for Oracle E-Business Applications, ensuring smooth integration and peak performance.";
+            const Para2="Our DB Management Services encompass comprehensive lifecycle support & management for Oracle and Microsoft SQL Server databases.";
+            const Para3="Our Professional Services specialise in Staff Augmentation and supplemental support with onsite consultants on a Time and Materials basis.";
+            const Para4="DBAffinity provides this service for specialised DBA projects, which demand additional time and effort.";
+
+
             // Update the state on window resize
             useEffect(() => {
               const handleResize = () => {
@@ -106,6 +143,67 @@ export default function Landing()
             </div>
             </div>
 
+    {/* ///////////////////////////////////////////////////////////////////////////////////////  */}
+
+
+            <div className="section4">
+            <h1 className="font2 SectionHeading section4Heading">WHAT EXACTLY CAN I CONTRIBUTE AS A <br /><span className="font2 SectionSubHeading section4SubHeading">FULL-STACK DEVELOPER?</span></h1>
+            <div className="CardBox">
+            <Card Head={Head1} Para={Para1} jsonSRC={SVG1}/>
+            <Card Head={Head2} Para={Para2} jsonSRC={SVG2}/>
+            <Card Head={Head3} Para={Para3} jsonSRC={SVG3}/>
+            <Card Head={Head4} Para={Para4} jsonSRC={SVG4}/>
+            </div>
+            </div>
+
+
+        {/* ///////////////////////////////////////////////////////////////////////////////////     */}
+
+        
+        <div className="section5">
+        <h1 className="font2 SectionHeading section5Heading">WHAT ARE MY PROFICIENCIES? <br /><span className="font2 SectionSubHeading section5SubHeading">MY TECHNOLOGY STACK</span></h1>   
+
+        <div className="section5LogoContain">
+        <Marquee speed={60} gradient={false}>
+        <div className="section5Logos">
+
+        <LogoCard  Img={React}/>    
+        <LogoCard  Img={Vue}/>
+        <LogoCard  Img={Oracle}/>  
+        <LogoCard  Img={Java}/>  
+        <LogoCard  Img={SpringBoot}/>  
+        <LogoCard  Img={AWS}/>  
+
+        </div> 
+        </Marquee>     
+        </div> 
+
+
+        <div className="section5LogoContain1">
+        <Marquee speed={60} gradient={false} direction="right">
+        <div className="section5Logos1">
+
+        <LogoCard  Img={Figma}/>    
+        <LogoCard  Img={Postman}/>
+        <LogoCard  Img={Git}/>  
+        <LogoCard  Img={GitHub}/>  
+        <LogoCard  Img={MUI}/>  
+        <LogoCard  Img={TailwindCSS}/>  
+
+        </div> 
+        </Marquee>     
+        </div>     
+
+
+        </div>
+
+
+        {/* ////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+        <div className="section6">
+        <Lottie animationData={BigSVG} loop={true} />
+        </div>    
+        
         </div>
         </>
     )

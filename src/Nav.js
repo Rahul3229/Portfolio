@@ -8,20 +8,13 @@ export default function Nav()
 <>
 
 <div className="Nav">
+
+
     <button className="NavButton">
-        About
+        Experience
     </button>
     <button className="NavButton">
-        Expertise
-    </button>
-    <button className="NavButton">
-        Industries
-    </button>
-    <button className="NavButton">
-        Open Positions
-    </button>
-    <button className="NavButton">
-        Contact Us
+        Contact Me
     </button>
 
 

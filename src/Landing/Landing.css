@@ -513,3 +513,119 @@ span
         margin-top: -5%;
     }
 }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.section4
+{
+    height: 60vh;
+    width:80vw;
+    border:0.1rem solid red;
+    margin:auto;
+    position: relative;
+    top:72vh;
+}
+
+.CardBox
+{
+    display:flex;
+    width:115%;
+    margin-left: -7.5%;
+    margin-top:3%;
+    justify-content: space-between;
+    border:0.1rem solid black;
+    position: absolute;
+}
+.section4Heading
+{
+    margin: auto;
+    width:100%;
+}
+
+.section4SubHeading
+{
+    color:#f1c40f;  
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section5
+{
+position: relative;
+top:98vh;
+/* height:60vh; */
+width:80vw;
+border:0.1rem black solid;
+margin:auto;
+text-align: left;
+}
+
+.section5SubHeading
+{
+    color:#f1c40f;  
+}
+
+.section5Logos
+{
+    gap:4rem;
+    padding-left: 3.5%;
+    height:39vh;
+    display: flex;
+    align-items: center;      
+}
+
+.section5LogoContain
+{
+    width:100%;
+    margin-left: 0.0%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 13px #aaaaaa,
+                inset -7px -7px 13px #ffffff;
+}
+
+
+.section5Logos1
+{
+    gap:4rem;
+    padding-left: 3.5%;
+    height:39vh;
+    display: flex;
+    align-items: center;      
+}
+
+.section5LogoContain1
+{
+    position: relative;
+    top:10vh;
+    width:100%;
+    margin-left: 0.0%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 13px #aaaaaa,
+                inset -7px -7px 13px #ffffff;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.section6
+{
+    width:80vw;
+    position: relative;
+    top:120vh;
+    margin: auto;
+}
