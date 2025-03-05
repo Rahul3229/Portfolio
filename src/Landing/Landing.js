@@ -32,15 +32,15 @@ import LogoCard from ".././LogoCard.js";
 import React from "../Assets/react1.svg";
 import Vue from "../Assets/vuejs.svg";
 import TailwindCSS from "../Assets/tailwindcss.png";
-import MUI from "../Assets/mui3.png";
+import MUI from "../Assets/muinew.svg";
 import SpringBoot from "../Assets/spring.png";
 import AWS from "../Assets/aws.svg";
 import TypeScript from "../Assets/typescript.svg";
-import Git from "../Assets/git.svg";
+import Git from "../Assets/gitnew.svg";
 import GitHub from "../Assets/github.svg";
 import Postman from "../Assets/postman.svg";
 import Figma from "../Assets/figma.svg";
-import JavaScript from "../Assets/javascript.svg";
+import JavaScript from "../Assets/js2.svg";
 import Java from "../Assets/java.svg";
 import Oracle from "../Assets/oracle.svg";
 
@@ -65,7 +65,7 @@ export default function Landing()
 
 
             // Update the state on window resize
-            useEffect(() => {
+              useEffect(() => {
               const handleResize = () => {
                 setViewportWidth(window.innerWidth);
                 setViewportHeight(window.innerHeight);
@@ -226,7 +226,7 @@ export default function Landing()
         <p className="font3"><ContactComponent SVG={Contact3} link="https://www.linkedin.com/in/rahul-ilipilla-704621148/" info="Linked In"/></p>
         <p className="font3"><ContactComponent SVG={Contact1} link="https://github.com/Rahul3229" info="Git Hub"/></p>   
         </div>
-        <div className="font2 section7Heading">NO ANGULAR COMPONENTS WERE HARMED IN MAKING OF THIS WEBSITE<br /><span className="font2 ContactSpanSection7">100% REACT.JS MADE</span></div>
+        <div className="font2">NO ANGULAR COMPONENTS WERE HARMED IN MAKING OF THIS WEBSITE<br /><span className="font2 ContactSpanSection7">100% REACT.JS MADE</span></div>
         {/* <div className="font2">100% REACT.JS MADE</div> */}
         <div className="font3">© 2025 Rahul Ilipilla. All Rights Reserved</div>
         </div>        

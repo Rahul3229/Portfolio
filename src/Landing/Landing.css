@@ -20,6 +20,7 @@
     justify-content: space-between;
 }
 
+
 .Section1Heading
 {
     width: 45%;
@@ -29,6 +30,18 @@
     display: grid;
     place-items: center; 
     height: 65vh; 
+    transition: 1s;
+}
+
+.Section1Heading:hover
+{
+    transition: 2s;
+    background-color: #f1c40f;
+    span
+    {
+        color:#e0e0e0;
+        transition: 2s;
+    }
 }
 
 .Section1SVG1

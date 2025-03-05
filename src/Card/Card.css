@@ -13,10 +13,17 @@
 .Card:hover
 {
     transition: 1s;
-    background: #e0e0e0;
+    background: #f1c40f;
     transform: scale(1.02);
-    box-shadow:  17px 17px 12px #cccccc,
-             -17px -17px 12px #f4f4f4;
+    box-shadow:  21px 21px 45px #a6a6a6,
+    -21px -21px 45px #ffffff;
+             .CardSVG
+             {
+                background-color: #f1c40f;
+                box-shadow: inset 6px 6px 10px #caa50d,
+            inset -6px -6px 10px #ffe311;
+                transition: 1s;
+             }
 }
 
 .CardSVG
@@ -35,7 +42,7 @@
             display: flex;
             justify-items: center;
             justify-content: center;
-
+    transition: 1.5s;
 }
 
 .CardSVGWidth
