@@ -629,3 +629,43 @@ text-align: left;
     top:120vh;
     margin: auto;
 }
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.section7
+{
+    height:40vh;
+    width:100vw;
+    margin:auto;
+   
+    background: #e0e0e0;
+    box-shadow:  8px 8px 15px #bebebe,
+             -8px -8px 15px #ffffff;
+    position: relative;
+    top:120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section7ContactInfo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ContactSpanSection7
+{
+    display: flex;
+    justify-content: center;
+}
+
+.section7Heading
+{
+    position: relative;
+  
+}

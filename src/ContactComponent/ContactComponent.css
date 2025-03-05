@@ -1,0 +1,20 @@
+.ContactComponent
+{
+    display:flex;
+    border: 0.1rem solid red;
+    justify-content: center;
+    align-items: center;
+}
+.ContactComponentSVG
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+
+.ContactComponentLink
+{
+    text-decoration: none;
+    color:black;
+}

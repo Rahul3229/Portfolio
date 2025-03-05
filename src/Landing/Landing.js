@@ -13,6 +13,18 @@ import {ReactTyped} from 'react-typed';
 import {useState, useEffect} from 'react';
 import AWSBadge from "../Assets/AWS-badge.png";
 
+import ContactComponent from "../ContactComponent/ContactComponent.js";
+
+import Contact1 from "../Assets/Contact1.json";
+import Contact2 from "../Assets/Contact2.json";
+import Contact3 from "../Assets/Contact3.json";
+import Contact4 from "../Assets/Contact4.json";
+import Contact5 from "../Assets/Contact5.json";
+import Contact6 from "../Assets/Contact6.json";
+import Contact7 from "../Assets/Contact7.json";
+import Contact8 from "../Assets/Contact8.json";
+
+
 import Card from "../Card/Card.js";
 
 import LogoCard from ".././LogoCard.js";
@@ -204,6 +216,21 @@ export default function Landing()
         <Lottie animationData={BigSVG} loop={true} />
         </div>    
         
+
+        {/* ///////////////////////////////////// */}
+
+        <div className="section7">
+        <div className="section7ContactInfo">
+        <p className="font3"><ContactComponent SVG={Contact4} link="" info="(380) 206-6260"/></p>
+        <p className="font3"><ContactComponent SVG={Contact7} link="" info="rahulilipilla@gmail.com"/></p> 
+        <p className="font3"><ContactComponent SVG={Contact3} link="https://www.linkedin.com/in/rahul-ilipilla-704621148/" info="Linked In"/></p>
+        <p className="font3"><ContactComponent SVG={Contact1} link="https://github.com/Rahul3229" info="Git Hub"/></p>   
+        </div>
+        <div className="font2 section7Heading">NO ANGULAR COMPONENTS WERE HARMED IN MAKING OF THIS WEBSITE<br /><span className="font2 ContactSpanSection7">100% REACT.JS MADE</span></div>
+        {/* <div className="font2">100% REACT.JS MADE</div> */}
+        <div className="font3">© 2025 Rahul Ilipilla. All Rights Reserved</div>
+        </div>        
+
         </div>
         </>
     )
