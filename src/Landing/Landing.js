@@ -3,14 +3,19 @@
 import "./Landing.css";
 import MainAnimation from "../Jsons/json1.json";
 import Section2SVG from "../Jsons/json11.json";
-import SVG1 from "../Jsons/json27.json";
+import SVG1 from "../Jsons/json14.json";
 import SVG2 from "../Jsons/json2.json";
 import SVG3 from "../Jsons/json8.json";
-import SVG4 from "../Jsons/json25.json";
+import SVG4 from "../Jsons/json30.json";
+
 import Lottie from "lottie-react";
+
 import Marquee from "react-fast-marquee";
+
 import {ReactTyped} from 'react-typed';
+
 import {useState, useEffect} from 'react';
+
 import AWSBadge from "../Assets/AWS-badge.png";
 
 import ContactComponent from "../ContactComponent/ContactComponent.js";
@@ -58,10 +63,10 @@ export default function Landing()
             const Head3="TALKING TO BACK-END CODE";
             const Head4="MANAGING DATABASES";
 
-            const Para1="Our ERP management services focus on delivering expert support for Oracle E-Business Applications, ensuring smooth integration and peak performance.";
-            const Para2="Our DB Management Services encompass comprehensive lifecycle support & management for Oracle and Microsoft SQL Server databases.";
-            const Para3="Our Professional Services specialise in Staff Augmentation and supplemental support with onsite consultants on a Time and Materials basis.";
-            const Para4="DBAffinity provides this service for specialised DBA projects, which demand additional time and effort.";
+            const Para1="I collaborate closely with UI/UX designers to bring designs to life, and on occasion, I create my own designs using tools like Figma and Adobe XD. ";
+            const Para2="The next step involves translating designs into responsive code using React or Vue.js, along with TailwindCSS or MUI, ensuring a seamless user experience across devices.";
+            const Para3="The third step involves building Spring Boot-based RESTful APIs, enabling smooth communication between the frontend and backend. ";
+            const Para4="The final step involves designing and optimizing database schemas, integrate them with Spring Data JPA or other ORM frameworks";
 
 
             // Update the state on window resize
@@ -84,6 +89,7 @@ export default function Landing()
     return (
         <>
         <div className="Landing">
+
         <div className="temp">
     <h1>Viewport Resolution</h1>
       <p>Width: {viewportWidth}px</p>
@@ -133,7 +139,7 @@ export default function Landing()
                 <h1 className="font2 SectionHeading">
                     GETTING TO KNOW ME:<br /><span className="SectionSubHeading font2">A LIFE IN TECH</span>
                     <p className="font3 Section2SubText">
-                Walter Mitty (Ben Stiller), an employee at Life magazine, spends day after monotonous day developing photos for the publication. To escape the tedium, Walter inhabits a world of exciting daydreams in which he is the undeniable hero. Walter fancies a fellow employee named Cheryl (Kristen Wiig) and would love to date her, but he feels unworthy. However, he gets a chance to have a real adventure when Life's new owners send him on a mission to obtain the perfect photo for the final print issue.
+                    I am a full-stack developer with over five years of experience in developing web applications. I have created single-page applications using React and Vue.js, and I am highly skilled with front-end frameworks like Material UI and TailwindCSS. I have developed RESTful APIs using Spring Boot and managed database connections with Spring JPA, among other tasks. My previous role involved working with SQL and MySQL databases. Additionally, I am a certified AWS Developer Associate.
                 </p>
                 </h1>
 
@@ -146,7 +152,7 @@ export default function Landing()
             <div className="section3Text">
                <div className="font2 section3Box">
                 <h1 className="SectionHeading">PROUDLY CERTIFIED:<br /><span className="font2 SectionSubHeading">AWS DEVELOPER ASSOCIATE</span>
-                <p className="section3Subtext font3"> Walter Mitty (Ben Stiller), an employee at Life magazine, spends day after monotonous day developing photos for the publication. To escape the tedium, Walter inhabits a world of exciting daydreams in which he is the undeniable hero. Walter fancies a fellow employee named Cheryl (Kristen Wiig) and would love to date her, but he feels unworthy. </p>
+                <p className="section3Subtext font3">I am a certified AWS Developer Associate with experience deploying Spring Boot-based RESTful APIs on AWS API Gateway. I have utilized Lambda functions for event-driven applications and employed SNS to notify clients about anomalies in their applications. Additionally, I have worked extensively with the AWS SDK, making API calls to S3 for file operations, deploying web applications on EC2, and handling various other AWS services.</p>
                 </h1>
                </div>
             </div>
@@ -162,9 +168,9 @@ export default function Landing()
             <h1 className="font2 SectionHeading section4Heading">WHAT EXACTLY CAN I CONTRIBUTE AS A <br /><span className="font2 SectionSubHeading section4SubHeading">FULL-STACK DEVELOPER?</span></h1>
             <div className="CardBox">
             <Card Head={Head1} Para={Para1} jsonSRC={SVG1}/>
-            <Card Head={Head2} Para={Para2} jsonSRC={SVG2}/>
+            <Card Head={Head2} Para={Para2} jsonSRC={SVG4}/>
             <Card Head={Head3} Para={Para3} jsonSRC={SVG3}/>
-            <Card Head={Head4} Para={Para4} jsonSRC={SVG4}/>
+            <Card Head={Head4} Para={Para4} jsonSRC={SVG2}/>
             </div>
             </div>
 

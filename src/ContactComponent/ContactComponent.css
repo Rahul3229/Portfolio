@@ -1,7 +1,7 @@
 .ContactComponent
 {
     display:flex;
-    border: 0.1rem solid red;
+    /* border: 0.1rem solid red; */
     justify-content: center;
     align-items: center;
 }

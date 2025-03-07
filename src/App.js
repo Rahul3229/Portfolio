@@ -7,7 +7,11 @@ import Exp from "./Exp.js";
 
 import Nav from "./Nav.js";
 
+import Experience from "./Experience/Experience.js";
+
 import Landing from "./Landing/Landing.js";
+
+import Contact from "./Contact/Contact.js";
 
 function App() {
   return (
@@ -16,8 +20,11 @@ function App() {
 
       <Nav />
 
+      {/* <Experience /> */}
+
       <Landing />
 
+      {/* <Contact /> */}
 
       {/* <Section /> */}
       
