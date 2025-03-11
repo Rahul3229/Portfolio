@@ -2,6 +2,8 @@ import "./Nav.css";
 
 import Button from "./Button/Button.js"
 
+import { Link } from "react-router-dom";
+
 export default function Nav()
 {
 
@@ -17,18 +19,17 @@ export default function Nav()
 
 <div className="Nav">
 
-    <button className="NavButton font3">
-        Home
-    </button>   
-    <button className="NavButton font3">
-        Experience
-    </button>
-    <button className="NavButton font3">
-        Contact Me
-    </button>
-    <button className="NavButton font3" onClick={resumeOpen}>
-    <a href="">   Get My Resume   </a> 
-    </button>
+        <Link to="/">    <button className="NavButton ButtonNav font3">Home</button>   </Link>
+
+        
+        <Link to="/Contact">    <button className="NavButton font3">Contact Me</button>   </Link>
+
+        
+        <Link to="/Experience">    <button className="NavButton font3">Experience</button>   </Link>
+
+        <button className="NavButton font3" onClick={resumeOpen}>
+        <a href="">   Get My Resume   </a> 
+        </button>
 
 
 

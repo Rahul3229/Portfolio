@@ -13,6 +13,8 @@ import Landing from "./Landing/Landing.js";
 
 import Contact from "./Contact/Contact.js";
 
+import  {Route, Routes} from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
@@ -20,15 +22,13 @@ function App() {
 
       <Nav />
 
-      {/* <Experience /> */}
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Experience" element={<Experience />} />
+    </Routes>
 
-      <Landing />
-
-      {/* <Contact /> */}
-
-      {/* <Section /> */}
       
-      {/* <Exp /> */}
     </div>
   );
 }

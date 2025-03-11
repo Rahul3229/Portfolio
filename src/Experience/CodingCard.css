@@ -1,7 +1,7 @@
 .CodingCard
 {
     height:25vh;
-    width:15vw;
+    /* width:15vw; */
 
     border-radius:20px;
     box-shadow:  5px 5px 3px #5a5a5a,
@@ -18,10 +18,10 @@
     display: none;
   }
   
-  /* Hide scrollbar for IE, Edge and Firefox */
+
   .CodingCard {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
   }
 
 
@@ -32,7 +32,7 @@
     padding-top:3%;
     text-align: left;
    
-    width:35%;
+    
     position: relative;
     font-size: 0.6rem;
     

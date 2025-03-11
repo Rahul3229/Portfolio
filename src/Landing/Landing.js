@@ -90,14 +90,11 @@ export default function Landing()
         <>
         <div className="Landing">
 
-        <div className="temp">
-    <h1>Viewport Resolution</h1>
-      <p>Width: {viewportWidth}px</p>
-      <p>Height: {viewportHeight}px</p>
-    </div>
-
-
-
+        {/* <div className="temp">
+        <h1>Viewport Resolution</h1>
+        <p>Width: {viewportWidth}px</p>
+        <p>Height: {viewportHeight}px</p>
+        </div> */}
 
 
 {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}

@@ -6,7 +6,7 @@ import Code1 from "../Assets/Code11.mp4";
 import React from "../Assets/react1.svg";
 import  Typewriter  from "typewriter-effect";
 
-export default function CodingCard({code,svg,color,compiler,delay,pretext})
+export default function CodingCard({code,svg,color,compiler,delay,pretext,lettersize,width1,cardwidth})
 {
 
   const contentRef = useRef(null);
@@ -41,14 +41,19 @@ export default function CodingCard({code,svg,color,compiler,delay,pretext})
       if (switch2 && typed.length > 0) {
         setTyped(holder.slice(0, typed.length - 1));
       }
+
     }, delay);
 
     return () => clearTimeout(timeout); // Clean up the timeout on component unmount
   }, [typed, switch1, switch2, holder]);
     return(
         <>
-        <div style={{backgroundColor:compiler}} className="CodingCard CodingSVG" ref={contentRef}>
-          <h1 style={{color:color}}className="Code  font3">
+        <div style={{backgroundColor:compiler,width:`${cardwidth}vw`}} className="CodingCard CodingSVG" ref={contentRef}>
+          {
+              
+          }   
+          <h1 style={{color:color, fontSize: `${lettersize}rem`, width: `${width1}%`}}className="Code  font3">
+
          {pretext}  {typed}
           </h1>
           <div className="Blinking"></div>

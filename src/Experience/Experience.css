@@ -1,12 +1,11 @@
 .Experience1
 {
     width:80vw;
-    /* border:0.1rem solid red; */
     position: relative;
     top:30vh;
     margin: auto;
     display: flex;
-    height:60vh;
+    height:80vh;
     justify-content: space-between;
 }
 
@@ -15,13 +14,265 @@
     width:55%;
     /* border:0.1rem solid black; */
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 2fr);
     grid-template-columns: repeat(2, 1fr);
-    /* justify-items: center; */
-    align-items: center;
+    /* justify-items: center;
+    align-items: center; */
+
+
+
 }
 
 .Experience1Text
+{
+    width:50%;
+    box-shadow:  5px 5px 5px #b3b3b3,
+             -5px -5px 5px #ffffff;
+    border-radius: 20px;  
+    transition: 1s;       
+    display: grid;
+    align-items: center;
+}
+
+.Experience1Text:hover
+{
+    transition: 2s;
+    background-color: #f1c40f;
+
+
+    .ExperienceButton
+    {
+        transition: 2s;
+        background-color: #f1c40f;
+    }
+}
+
+
+
+.ExperienceButton
+{
+    border:none;
+    background-color: #e0e0e0;
+    text-decoration: none;
+    height:5vh;
+    width:6vw;
+    /* position: relative;
+    top: 4vh; */
+    border-radius: 5px;
+    text-align: center;
+    transition: 1s;
+}
+
+.ExperienceButton:hover
+{
+    background-color: #f1c40f;
+    transition:2s;
+    box-shadow:  14px 14px 15px #856c08,
+    -14px -14px 15px #ffff16;
+
+
+}
+
+
+.HeadingSpace
+{
+    display: flex;
+   flex-direction: column;
+    padding-left: 3%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+.JobHeading
+{
+    text-align: left;
+}
+
+.HeadingDate
+{
+    margin: 0%;
+    font-weight: 800;
+}
+
+
+.PM
+{
+    color:black;
+    font-weight: 400;
+}
+
+.ExperienceKeyPoints
+{
+    margin-top: 4%;
+}
+.ExperienceKeyPoints>p
+{
+    margin: 0.5%;
+    font-size: 0.85rem;
+}
+
+.HeadingSpaceSpan
+{
+    color: #f1c40f;
+    position: relative;
+    opacity: 1;
+    transition: 1s;
+}
+
+.HeadingSpaceSpan1
+{
+    color:#e0e0e0;
+    position: absolute;
+    left:53.7%;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.Experience1Text:hover
+{
+    .HeadingSpaceSpan1
+    {
+    transition: 0.5s;
+    opacity: 1;
+    }
+
+    .ExperienceLogos
+    {
+    transition: 2s; 
+    opacity: 0.8;
+    }
+    .HeadingSpaceSpan4
+    {
+        opacity: 1;
+    }
+}
+
+    .ExperienceLogoHeading
+    {
+    font-size: 1.5rem;
+    opacity: 0.6;
+    position: relative;
+    top:1.5vh;
+    }
+
+
+
+
+.ExperienceLogos
+{
+    height:5vh;
+    width:7vw;
+    /* border: 0.1rem solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.0;
+    transition: 1s;
+}
+
+.ExperienceSmallLogo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    object-fit: contain;
+}
+
+.ExperienceLogoName
+{
+    font-size: 0.8rem;
+    
+}
+
+.ExperienceLogoContain
+{
+    width:35.5vw;
+    overflow: hidden;
+    /* border:0.1rem dotted black; */
+    /* padding-left: 2%; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:-1.2vh;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.Experience2
+{
+    width:80vw;
+    position: relative;
+    top:45vh;
+    margin: auto;
+    display: flex !important;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height:60vh;
+}
+
+
+.Experience2Coding2
+{
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left:6.8%;
+}
+
+
+.Experience2Text
+{
+    width:50%;
+    box-shadow:  5px 5px 5px #b3b3b3,
+             -5px -5px 5px #ffffff;
+    border-radius: 20px;         
+}
+
+
+.HeadingSpaceSpan2
+{
+    position: absolute;
+    left:1.4%;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+
+
+.Experience3
+{
+    width:80vw;
+    position: relative;
+    top:60vh;
+    margin: auto;
+    display: flex;
+    height:120vh;
+    justify-content: space-between;
+}
+
+.Experience3Coding3
+{
+    width:55%;
+    /* border:0.1rem solid black; */
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    /* align-items: center; */
+}
+
+.Experience3Text
 {
     width:50%;
     /* border:0.1rem solid black; */
@@ -29,3 +280,55 @@
              -5px -5px 5px #ffffff;
     border-radius: 20px;         
 }
+
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+
+.Experience4
+{
+    width:80vw;
+    position: relative;
+    top:75vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    height:115vh;
+    justify-content: space-between;
+}
+
+.Experience4Coding4
+{
+    width:55%;
+    position: relative;
+    left:1.9vw;
+    display: grid;
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 2fr);
+    gap:5rem;
+    justify-items: center;
+    /* align-items: center; */
+}
+
+.Experience4Text
+{
+    width:50%;
+    /* border:0.1rem solid black; */
+    box-shadow:  5px 5px 5px #b3b3b3,
+             -5px -5px 5px #ffffff;
+    border-radius: 20px;         
+}
+
+
+.HeadingSpaceSpan4
+{
+    position: absolute;
+    left:1.1vw;
+    color: #e0e0e0;
+    opacity: 0;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+
