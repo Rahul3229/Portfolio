@@ -1,3 +1,5 @@
+import {useState, useEffect} from 'react';
+
 import "./Experience.css";
 import Lottie from "lottie-react";
 import {ReactTyped} from 'react-typed';
@@ -40,7 +42,18 @@ import Redux from "../Assets/redux.svg";
 import SmallAWS from "../Assets/finalAWS.png";
 import SmallSpringJPA from "../Assets/smallSpringJPA1.svg";
 import SpringJPA from "../Assets/spring-3.svg";
-
+import SmallJSON from "../Assets/smalljson.png";
+import SmallXML from "../Assets/smallXML.png";
+import SmallXD from "../Assets/smallxd.png";
+import SmallXD1 from "../Assets/smallxd1.png";
+import SmallPSD from "../Assets/smallphotoshop.png";
+import SmallCSS from "../Assets/smallcss.png";
+import SmallCSS1 from "../Assets/smallCSS1.png";
+import SmallHTML from "../Assets/smallHTML1.png";
+import SmallJava from "../Assets/smallJava.png";
+import SmallPostman from "../Assets/smallPostman.png";
+import SmallGit from "../Assets/smallgit.png";
+import SmallGitHub from "../Assets/smallgithub.png";
 
 
 export default function Experience ()
@@ -88,9 +101,33 @@ export default function Experience ()
     const Delay6=200;
     const Pretext6=""
 
+            const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+            const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
+                  useEffect(() => {
+                  const handleResize = () => {
+                    setViewportWidth(window.innerWidth);
+                    setViewportHeight(window.innerHeight);
+                  };
+              
+                  // Add event listener to resize event
+                  window.addEventListener('resize', handleResize);
+              
+                  // Cleanup the event listener when the component unmounts
+                  return () => {
+                    window.removeEventListener('resize', handleResize);
+                  };
+                }, []); 
+
 
     return (
         <>
+
+        {/* <div className="temp">
+        <h1>Viewport Resolution</h1>
+        <p>Width: {viewportWidth}px</p>
+        <p>Height: {viewportHeight}px</p>
+        </div> */}
+
         <div className="Experience1"> 
         <div className="Experience1Coding1">
         <CodingCard svg ={React} color={Color1} delay={Delay1} pretext={Pretext1} compiler={Colour1} code={Code1} width1="0" cardwidth="15"/>
@@ -105,16 +142,21 @@ export default function Experience ()
         <p className="font3 HeadingDate">Febuary 2024 - Present <br /> <span className="PM">santosh.majji@dbaffinity.com<br />(Project Manager)</span></p> 
 
         <div className="font3 ExperienceKeyPoints">
-        <p>•    Collaborated closely with UX/UI designers to convert wireframes into responsive, interactive components using Vue.js and Tailwind CSS.</p>
-        <p>•    Led the migration of legacy front-end code to Vue 3, improving maintainability and scalability.</p>
+        <p>•    Developed and maintained single-page applications (SPAs) using Vue.js, Vuex, and Vue Router.</p>
+        <p>•    Migrated legacy front-end code to Vue 3 and utilized Git commands like git commit, git merge, git rebase, and git checkout to handle version control and resolve conflicts.</p>
+        <p>•    Translated Figma designs into fully responsive and pixel-perfect web layouts using Tailwind CSS.</p>
         <p>•	Led the migration of an entire web application from Bootstrap to Tailwind CSS, improving the maintainability, customization, and responsiveness of the codebase.</p>
-        <p>•	Built responsive and interactive user interfaces with React.js, delivering high-quality, maintainable solutions for clients in a variety of industries.</p>
-        <p>•	Developed single-page applications (SPAs) using React Router, providing a fluid user experience with fast page transitions.</p>
+        <p>•	Built and delivered multiple React.js-based Proof of Concept (PoC) applications to demonstrate feasibility and validate project ideas with stakeholders.</p>
+        <p>•	Handled API requests (GET, POST, PUT, DELETE) and managed asynchronous data fetching with JavaScript Promises and async/await.</p>
         </div>  
 
         <h1 className="font2 ExperienceLogoHeading">TECHNOLOGY USED : </h1> 
         <div className="ExperienceLogoContain"> 
         <Marquee speed={40} gradient={false}>   
+        <div className="ExperienceLogos">
+        <img src={SmallGit} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Git</h1>    
+        </div>     
         <div className="ExperienceLogos">
         <img src={SmallFigma} className="ExperienceSmallLogo"></img>
         <h1 className="font3 ExperienceLogoName">Figma</h1>    
@@ -157,9 +199,10 @@ export default function Experience ()
         <p className="font3 HeadingDate">January 2023- March 2023<br /> <span className="PM">ptammina@yahoo.com<br />(Database Manager)</span></p> 
 
         <div className="font3 ExperienceKeyPoints">
-        <p>•	Actively involved in Requirement Gathering from Business Users for their Daily/Weekly/Monthly Reports.</p>
-        <p>•	Developed eIS Reports using complex SQL queries using joins, sub-queries, and correlated sub-queries for Oracle E-Business Suite.</p>
-        <p>•	Tuned several SQL Queries used in eIS Reports thereby decreasing the processing time by at least 30%.</p>
+        <p>•    Designed and maintained database schemas, including creating tables, relationships, indexes, and views, to ensure proper data structure and integrity.</p>
+        <p>•	  Developed and maintained EIS (Executive Information System) reports with interactive dashboards to deliver high-level business insights to top executives, enabling data-driven decision-making.</p>
+        <p>•	  Performed query optimization by analyzing execution plans, indexing strategies, and partitioning, resulting in improved query performance by up to 40%.</p>
+        <p>•    Managed and maintained databases on remote Linux/Unix servers by securely connecting through PuTTY for tasks such as backups, restores, and performance troubleshooting.</p>
         </div>  
 
         <h1 className="font2 ExperienceLogoHeading">TECHNOLOGY USED : </h1> 
@@ -213,24 +256,23 @@ export default function Experience ()
         <p className="font3 HeadingDate">January 2023- March 2023<br /> <span className="PM">ptammina@yahoo.com<br />(Database Manager)</span></p> 
 
         <div className="font3 ExperienceKeyPoints">
-        <p>•	Translated Adobe XD designs and other mockups into high-quality, responsive designs that are consistent with brand guidelines and industry best practices.</p>
-        <p>•	Developed responsive single-page applications (SPAs) using React.js, improving user experience with dynamic and seamless page transitions.</p>
-        <p>•	Designed and developed state management solutions using React Context and useContext hook for features such as user authentication, theme preferences, and application settings.</p>
-        <p>•	Implemented React Router for managing navigation and routing, ensuring smooth transitions between views without page reloads.</p>
-        <p>•	Utilized React hooks (useState, useEffect, useContext) to manage component state and side effects in a clean, functional programming style.</p>
-        <p>•	Utilized Material-UI components such as Button, TextField, Grid, and Dialog to create consistent, mobile-first layouts and enhance user experience.</p>
-        <p>•	Customized Material-UI themes and applied them across applications to maintain design consistency and adhere to branding guidelines.</p>
-        <p>•	Developed and maintained multiple Spring Boot microservices for building scalable and high-performance backend applications.</p>
-        <p>•	Designed and implemented RESTful APIs using Spring MVC and Spring Boot to support front-end development and mobile applications.</p>
-        <p>•	Created robust CRUD (Create, Read, Update, Delete) operations using Spring Data JPA and Hibernate ORM to interface with relational databases such as MySQL and PostgreSQL.</p>
-        <p>•	Worked in Agile development teams, collaborating with cross-functional teams to design, develop, and deploy Spring Boot-based applications.</p>
-        <p>•	Configured AWS EC2 instances with proper security groups, VPCs, and IAM roles to run Spring Boot applications in a secure and isolated environment.</p>
-        <p>•	Implemented AWS RDS (Relational Database Service) for hosting Spring Boot applications’ databases, ensuring high availability, automatic backups, and ease of scaling.</p>
+        <p>•	Converted Adobe XD designs into a responsive single-page application using React.js, enhancing user experience with dynamic transitions.</p>
+        <p>•	Implemented React Router for smooth, client-side navigation and used React Redux for efficient state management across components.</p>
+        <p>•    Utilized React hooks (useState, useEffect, useContext) to manage state and side effects in a clean, functional style.</p>
+        <p>•	Designed responsive UIs with Material UI, customizing components to meet project requirements.</p>
+        <p>•    Developed Spring Boot microservices with RESTful APIs, leveraging Spring MVC and Spring Data JPA for backend operations.</p>
+        <p>•    Built CRUD operations and integrated MySQL databases using Hibernate ORM.</p>
+        <p>•    Worked in Agile teams to deliver Spring Boot applications and deployed them securely on AWS EC2 with RDS for high availability and scalability.</p>
+        <p>•    Utilized Postman to test and validate RESTful APIs, ensuring proper functionality and performance of all endpoints.</p>
         </div>  
 
         <h1 className="font2 ExperienceLogoHeading">TECHNOLOGY USED : </h1> 
         <div className="ExperienceLogoContain"> 
         <Marquee speed={40} gradient={false}>   
+        <div className="ExperienceLogos">
+        <img src={SmallXD} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Adobe XD</h1>    
+        </div>     
         <div className="ExperienceLogos">
         <img src={SmallMui} className="ExperienceSmallLogo"></img>
         <h1 className="font3 ExperienceLogoName">Material UI</h1>    
@@ -243,6 +285,14 @@ export default function Experience ()
         <img src={SmallSpringJPA} className="ExperienceSmallLogo"></img>
         <h1 className="font3 ExperienceLogoName">Spring JPA</h1>
         </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallJava} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Java</h1>
+        </div>   
+        <div className="ExperienceLogos">
+        <img src={SmallPostman} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Postman</h1>
+        </div>   
         <div className="ExperienceLogos">
         <img src={SmallReact} className="ExperienceSmallLogo"></img>
         <h1 className="font3 ExperienceLogoName">React.js</h1>
@@ -263,6 +313,7 @@ export default function Experience ()
         <img src={SmallAWS} className="ExperienceSmallLogo"></img>
         <h1 className="font3 ExperienceLogoName">AWS</h1>
         </div> 
+        
         </Marquee>  
         </div> 
         <button className="ExperienceButton font3">Know More</button>    
@@ -290,47 +341,72 @@ export default function Experience ()
         <p className="font3 HeadingDate">January 2018- December 2019<br /> <span className="PM">ptammina@yahoo.com<br />(Database Manager)</span></p> 
 
         <div className="font3 ExperienceKeyPoints">
-        <p>•	Developed and maintained CSS styles to enforce a uniform visual design across the application, incorporating responsive design techniques and precise positioning to enhance layout consistency and usability.</p>
-        <p>•	Used React JS for faster compilation and for developing reusable components.</p>
-        <p>•	Developed responsive e-commerce websites using React JS, used Redux for state management, used React-Router for navigating between web pages.</p>
-        <p>•	Used React Hooks such as “useEffect()” for making API calls, “useRef()” for accessing DOM elements without causing re-renders.</p>
-        <p>•	Created Redux Store, to maintain a global state for the entire application and used reducers to modify the Store State Tree.</p>
-        <p>•	Utilized the Fetch API to handle HTTP requests and responses, integrating external data sources and APIs into web applications seamlessly.</p>
-        <p>•	Converted web designs from PSD mock-ups into React components, ensuring pixel-perfect implementation and adherence to design specifications.</p>
-        <p>•	Managed source code using GitHub, employing features such as branching, pull requests, and code reviews to ensure effective version control and collaborative development.</p>
-        <p>•	Engineered cross-platform hybrid applications using HTML, CSS, and JavaScript, resulting in a unified user experience across various devices and browsers by adhering to web standards and compatibility practices.</p>
-        <p>•	Implemented Promises in React applications for handling asynchronous operations such as API calls, integrating with components to manage state and side effects efficiently.</p>
-        <p>•	Experienced in handling JSON for data exchange between front-end and back-end systems, using JavaScript methods such as JSON.parse() and JSON.stringify() for data manipulation and storage.</p>
-        <p>•	Created, built, and deployed microservices using Spring Boot, following best practices to make sure the applications are scalable, easy to maintain, and well-suited for cloud environments.</p>
-        <p>•	Designed and implemented JPA entities and repositories, ensuring data consistency and efficient CRUD operations in the application.</p>
-        <p>•	Managed transactional operations with Spring's @Transactional annotation to ensure ACID compliance for business-critical processes.</p>
-        <p>•	Integrated H2 in-memory database for running unit and integration tests with Spring Boot, enabling fast and isolated testing of database interactions without needing an external database.</p>
-        <p>•	Created automated testing suites using JUnit and Spring Boot Test, increasing test coverage to 85% and reducing the number of production bugs by 50%.</p>
-        <p>•	Created automated testing suites using JUnit and Spring Boot Test, increasing test coverage to 85% and reducing the number of production bugs by 50%.</p>
+        <p>•	Developed responsive e-commerce websites using React.js, Redux for state management, and React Router for navigation, with efficient component reuse and API calls via React Hooks (useEffect, useRef).</p>
+        <p>•    Designed and implemented pixel-perfect React components from PSD designs, maintaining consistent layout using CSS and responsive techniques.</p>
+        <p>•    Managed global application state with Redux, using reducers to update the state tree and Fetch API for seamless API integrations.</p>    
+        <p>•    Utilized GitHub for version control, employing branching, pull requests, and code reviews for collaborative development.</p>
+        <p>•    Leveraged Git branches to implement a structured workflow, creating feature branches for new functionality and releasing branches for production deployments.</p>
+        <p>•    Built and deployed scalable Spring Boot microservices, implementing JPA for efficient CRUD operations and using @Transactional for ACID compliance.        </p>
+        <p>•    Integrated H2 in-memory database for fast unit testing and automated tests with JUnit, achieving 85% test coverage and reducing bugs by 50%.</p>
+        <p>•    Worked with XML and JSON for data exchange between front-end and back-end systems, ensuring seamless communication between services and applications.</p>
         </div>  
 
         <h1 className="font2 ExperienceLogoHeading">TECHNOLOGY USED : </h1> 
         <div className="ExperienceLogoContain"> 
         <Marquee speed={40} gradient={false}>   
+        
         <div className="ExperienceLogos">
-        <img src={SmallOracle} className="ExperienceSmallLogo"></img>
-        <h1 className="font3 ExperienceLogoName">Oracle</h1>    
+        <img src={SmallReact} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">React.js</h1>
         </div> 
         <div className="ExperienceLogos">
-        <img src={SmallSql} className="ExperienceSmallLogo"></img>
-        <h1 className="font3 ExperienceLogoName">Microsoft SQL</h1>
+        <img src={SmallReactRouter} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">React Router</h1>
         </div> 
         <div className="ExperienceLogos">
-        <img src={SmallPutty} className="ExperienceSmallLogo"></img>
-        <h1 className="font3 ExperienceLogoName">Putty</h1>
+        <img src={SmallRedux} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">React Redux</h1>
+        </div> 
+       
+        <div className="ExperienceLogos">
+        <img src={SmallSpring} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Spring Boot</h1>
         </div> 
         <div className="ExperienceLogos">
-        <img src={SmallLinux} className="ExperienceSmallLogo"></img>
-        <h1 className="font3 ExperienceLogoName">Linux</h1>
+        <img src={SmallSpringJPA} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Spring JPA</h1>
         </div> 
         <div className="ExperienceLogos">
-        <img src={SmallJira} className="ExperienceSmallLogo"></img>
-        <h1 className="font3 ExperienceLogoName">Jira</h1>
+        <img src={SmallJava} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Java</h1>
+        </div>     
+        <div className="ExperienceLogos">
+        <img src={SmallJSON} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">JSON</h1>
+        </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallXML} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">XML</h1>
+        </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallHTML} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">HTML</h1>
+        </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallCSS} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">CSS</h1>
+        </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallJavaScript} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">JavaScript</h1>
+        </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallPSD} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Photoshop</h1>
+        </div> 
+        <div className="ExperienceLogos">
+        <img src={SmallGitHub} className="ExperienceSmallLogo"></img>
+        <h1 className="font3 ExperienceLogoName">Git Hub</h1>
         </div> 
         </Marquee>  
         </div> 
@@ -338,7 +414,10 @@ export default function Experience ()
         </div>   
         </div>   
         </div>
+        
+        <div className="ExperiencePadding">
 
+        </div>
 
         </>
     )

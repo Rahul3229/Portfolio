@@ -9,15 +9,10 @@ import SVG3 from "../Jsons/json8.json";
 import SVG4 from "../Jsons/json30.json";
 
 import Lottie from "lottie-react";
-
 import Marquee from "react-fast-marquee";
-
 import {ReactTyped} from 'react-typed';
-
 import {useState, useEffect} from 'react';
-
 import AWSBadge from "../Assets/AWS-badge.png";
-
 import ContactComponent from "../ContactComponent/ContactComponent.js";
 
 import Contact1 from "../Assets/Contact1.json";
@@ -29,11 +24,8 @@ import Contact6 from "../Assets/Contact6.json";
 import Contact7 from "../Assets/Contact7.json";
 import Contact8 from "../Assets/Contact8.json";
 
-
 import Card from "../Card/Card.js";
-
 import LogoCard from ".././LogoCard.js";
-
 import React from "../Assets/react1.svg";
 import Vue from "../Assets/vuejs.svg";
 import TailwindCSS from "../Assets/tailwindcss.png";
@@ -48,7 +40,6 @@ import Figma from "../Assets/figma.svg";
 import JavaScript from "../Assets/js2.svg";
 import Java from "../Assets/java.svg";
 import Oracle from "../Assets/oracle.svg";
-
 import BigSVG from "../Jsons/json19.json"
 
 export default function Landing()
@@ -90,11 +81,11 @@ export default function Landing()
         <>
         <div className="Landing">
 
-        {/* <div className="temp">
+        <div className="temp">
         <h1>Viewport Resolution</h1>
         <p>Width: {viewportWidth}px</p>
         <p>Height: {viewportHeight}px</p>
-        </div> */}
+        </div>
 
 
 {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -154,7 +145,7 @@ export default function Landing()
                </div>
             </div>
             <div className="section3SVG">
-            <img src={AWSBadge} className="ImgPng"></img>
+            <img src={AWSBadge} className="ImgPng1"></img>
             </div>
             </div>
 

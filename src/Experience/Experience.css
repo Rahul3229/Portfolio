@@ -58,6 +58,7 @@
     width:6vw;
     /* position: relative;
     top: 4vh; */
+    font-size: 0.8rem;
     border-radius: 5px;
     text-align: center;
     transition: 1s;
@@ -79,8 +80,6 @@
     display: flex;
    flex-direction: column;
     padding-left: 3%;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 
@@ -208,6 +207,7 @@
 
 .Experience2
 {
+    height:75vh;
     width:80vw;
     position: relative;
     top:45vh;
@@ -215,7 +215,6 @@
     display: flex !important;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height:60vh;
 }
 
 
@@ -246,18 +245,21 @@
     left:1.4%;
 }
 
+
+
 /* ///////////////////////////////////////////////////////////////////////// */
 
 
 
 .Experience3
 {
+    /* height:100vh; */
+    height:87vh;
     width:80vw;
     position: relative;
     top:60vh;
     margin: auto;
     display: flex;
-    height:120vh;
     justify-content: space-between;
 }
 
@@ -288,13 +290,14 @@
 
 .Experience4
 {
+    /* height:100vh; */
+    height:90vh;
     width:80vw;
     position: relative;
     top:75vh;
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
-    height:115vh;
     justify-content: space-between;
 }
 
@@ -331,4 +334,112 @@
 
 /* /////////////////////////////////////////////////////////////////////// */
 
+
+.ExperiencePadding
+{
+height:5vh;
+width:100vw;
+/* border: 0.1rem solid red; */
+position: relative;
+top:80vh;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+@media(max-width:1440px)
+{
+
+.ExperienceLogoName
+{
+    font-size: 0.7rem;
+    
+}
+
+.ExperienceSmallLogo
+{
+    
+}
+
+}
+
+
+@media(max-width:1440px)
+{
+.ExperienceSmallLogo
+{
+    width:18%;
+}
+}
+
+@media(max-width:1440px)
+{
+.ExperienceSmallLogo
+{
+    width:17%;
+}
+.ExperienceLogoName
+{
+    font-size: 0.66rem;
+    
+}
+}
+
+@media(max-width:1185px)
+{
+.ExperienceSmallLogo
+{
+    width:17%;
+}
+.ExperienceLogoName
+{
+    font-size: 0.61rem;
+    
+}
+}
+
+@media(max-height:835px)
+{
+    .ExperienceKeyPoints>p
+{
+    margin: 0.5%;
+    font-size: 0.8rem;
+}
+
+}
+
+
+@media(max-height:735px)
+{
+
+
+}
+
+@media(max-height:800px)
+{
+    .Experience1
+    {
+        height:90vh;
+    }
+    .Experience2
+    {
+        height:85vh;
+    }
+    .Experience3
+    {
+        height:98vh;
+    }
+    .Experience4
+    {
+        height:105vh;
+    }
+}
+
+@media(max-width:1300px)
+{
+    .ExperienceButton
+    {
+        width:6.5vw;
+        font-size: 0.7rem;
+    }
+}
 
