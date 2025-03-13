@@ -15,6 +15,8 @@ import Contact from "./Contact/Contact.js";
 
 import  {Route, Routes} from "react-router-dom";
 
+import Confirmation from "./Confirmation/Confirmation.js";
+
 function App() {
   return (
     <div className="App">
@@ -26,9 +28,10 @@ function App() {
       <Route path="/" element={<Landing />} />
       <Route path="/Contact" element={<Contact />} />
       <Route path="/Experience" element={<Experience />} />
+      <Route path="/Confirmation" element={ <Confirmation />} />
     </Routes>
 
-      
+     
     </div>
   );
 }

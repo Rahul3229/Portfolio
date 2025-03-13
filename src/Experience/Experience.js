@@ -15,6 +15,9 @@ import AWS from "../Assets/FinalSVG.svg";
 import MySQL from "../Assets/mysql1.svg";
 import MUI from "../Assets/muinew.svg";
 import Git from "../Assets/git.svg";
+import GitHub from "../Assets/github.svg";
+import GitHub1 from "../Assets/gitnew.svg";
+import CSS from "../Assets/css.svg";
 
 import Marquee from "react-fast-marquee";
 
@@ -130,10 +133,10 @@ export default function Experience ()
 
         <div className="Experience1"> 
         <div className="Experience1Coding1">
-        <CodingCard svg ={React} color={Color1} delay={Delay1} pretext={Pretext1} compiler={Colour1} code={Code1} width1="0" cardwidth="15"/>
-        <CodingCard svg ={Vue} color={Color2} delay={Delay2} pretext={Pretext2} compiler={Colour2} code={Code2} width1="40" cardwidth="15"/>
-        <CodingCard svg ={TailwindCSS} color={Color3} delay={Delay3} pretext={Pretext3} compiler={Colour3} code={Code3} width1="90" lettersize="0.9" cardwidth="15"/>
-        <CodingCard svg ={JavaScript} color={Color4} delay={Delay4} pretext={Pretext4} compiler={Colour4} code={Code4} lettersize="0.7" cardwidth="15"/>
+        <CodingCard svg ={React} color={Color1} delay={Delay1} pretext={Pretext1} compiler={Colour1} code={Code1} width1="0" cardwidth="15" cardheight="35"/>
+        <CodingCard svg ={Vue} color={Color2} delay={Delay2} pretext={Pretext2} compiler={Colour2} code={Code2} width1="40" cardwidth="15" cardheight="35"/>
+        <CodingCard svg ={TailwindCSS} color={Color3} delay={Delay3} pretext={Pretext3} compiler={Colour3} code={Code3} width1="90" lettersize="0.9" cardwidth="15" cardheight="35"/>
+        <CodingCard svg ={JavaScript} color={Color4} delay={Delay4} pretext={Pretext4} compiler={Colour4} code={Code4} lettersize="0.7" cardwidth="15" cardheight="35"/>
         </div>
         <div className="Experience1Text">
         <div className="HeadingSpace">
@@ -179,7 +182,7 @@ export default function Experience ()
         </div> 
         </Marquee>  
         </div> 
-        <button className="ExperienceButton font3">Know More</button>    
+        <a href='https://resumerahul1.s3.us-east-2.amazonaws.com/Rahul_I+(1).pdf'><button className="ExperienceButton font3">Know More</button> </a>   
         </div>   
         </div>
         </div>
@@ -187,8 +190,8 @@ export default function Experience ()
 
         <div className="Experience2">  
         <div className="Experience2Coding2">
-        <CodingCard svg ={Oracle} color={Color5} delay={Delay5} pretext={Pretext5} compiler={Colour5} code={Code5} width1="80" cardwidth="25" lettersize="1.1"/>
-        <CodingCard svg ={MicrosoftSQL} color={Color6} delay={Delay6} pretext={Pretext6} compiler={Colour6} code={Code6} width1="90" cardwidth="25" lettersize="1"/>
+        <CodingCard svg ={Oracle} color={Color5} delay={Delay5} pretext={Pretext5} compiler={Colour5} code={Code5} width1="80" cardwidth="30" cardheight="30" lettersize="1.1"/>
+        <CodingCard svg ={MicrosoftSQL} color={Color6} delay={Delay6} pretext={Pretext6} compiler={Colour6} code={Code6} width1="90" cardwidth="30" cardheight="30" lettersize="1"/>
         </div>  
         {/* <div className="Experience2Text">
         </div> */}
@@ -230,7 +233,7 @@ export default function Experience ()
         </div> 
         </Marquee>  
         </div> 
-        <button className="ExperienceButton font3">Know More</button>    
+        <a href='https://resumerahul1.s3.us-east-2.amazonaws.com/Rahul_I+(1).pdf'><button className="ExperienceButton font3">Know More</button> </a>   
         </div>   
         </div>
         </div>
@@ -316,7 +319,7 @@ export default function Experience ()
         
         </Marquee>  
         </div> 
-        <button className="ExperienceButton font3">Know More</button>    
+        <a href='https://resumerahul1.s3.us-east-2.amazonaws.com/Rahul_I+(1).pdf'><button className="ExperienceButton font3">Know More</button> </a>      
         </div>   
         </div>    
 
@@ -327,12 +330,12 @@ export default function Experience ()
 
         <div className="Experience4"> 
         <div className="Experience4Coding4">
-        <CodingCard svg ={React} color={Color1} delay={Delay1} pretext={Pretext1} compiler={Colour1} code={Code1} width1="0" cardwidth="15"/>
+        <CodingCard svg ={React} color={Color1} delay={Delay1} pretext={Pretext1} compiler={Colour1} code={Code1} width1="0" cardwidth="15" />
         <CodingCard svg ={SpringBoot} color={Color2} delay={Delay2} pretext={Pretext2} compiler={Colour2} code={Code2} width1="40" cardwidth="15"/>
         <CodingCard svg ={AWS} color={Color3} delay={Delay3} pretext={Pretext3} compiler={Colour3} code={Code3} width1="90" lettersize="0.9" cardwidth="15"/>
         <CodingCard svg ={Git} color={Color4} delay={Delay4} pretext={Pretext4} compiler={Colour4} code={Code4} lettersize="0.7" cardwidth="15"/>
-                <CodingCard svg ={AWS} color={Color3} delay={Delay3} pretext={Pretext3} compiler={Colour3} code={Code3} width1="90" lettersize="0.9" cardwidth="15"/>
-        <CodingCard svg ={Git} color={Color4} delay={Delay4} pretext={Pretext4} compiler={Colour4} code={Code4} lettersize="0.7" cardwidth="15"/>
+        <CodingCard svg ={CSS} color={Color3} delay={Delay3} pretext={Pretext3} compiler={Colour3} code={Code3} width1="90" lettersize="0.9" cardwidth="15"/>
+        <CodingCard svg ={GitHub} color={Color4} delay={Delay4} pretext={Pretext4} compiler={Colour4} code={Code4} lettersize="0.7" cardwidth="15"/>
         </div>
         <div className="Experience3Text Experience1Text">
         <div className="HeadingSpace">
@@ -410,7 +413,7 @@ export default function Experience ()
         </div> 
         </Marquee>  
         </div> 
-        <button className="ExperienceButton font3">Know More</button>    
+        <a href='https://resumerahul1.s3.us-east-2.amazonaws.com/Rahul_I+(1).pdf'><button className="ExperienceButton font3">Know More</button> </a>   
         </div>   
         </div>   
         </div>

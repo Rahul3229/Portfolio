@@ -27,11 +27,11 @@ export default function Nav()
         
         <Link to="/Experience">    <button className="NavButton font3">Experience</button>   </Link>
 
-        <button className="NavButton font3" onClick={resumeOpen}>
+        {/* <button className="NavButton font3" onClick={resumeOpen}>
         <a href="">   Get My Resume   </a> 
-        </button>
+        </button> */}
 
-
+        <a href="https://resumerahul1.s3.us-east-2.amazonaws.com/Rahul_I+(1).pdf"> <button className="NavButton font3">Get My Resume</button>  </a>     
 
 </div>
 

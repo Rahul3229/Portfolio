@@ -81,11 +81,11 @@ export default function Landing()
         <>
         <div className="Landing">
 
-        <div className="temp">
+        {/* <div className="temp">
         <h1>Viewport Resolution</h1>
         <p>Width: {viewportWidth}px</p>
         <p>Height: {viewportHeight}px</p>
-        </div>
+        </div> */}
 
 
 {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
@@ -220,9 +220,9 @@ export default function Landing()
         <p className="font3"><ContactComponent SVG={Contact3} link="https://www.linkedin.com/in/rahul-ilipilla-704621148/" info="Linked In"/></p>
         <p className="font3"><ContactComponent SVG={Contact1} link="https://github.com/Rahul3229" info="Git Hub"/></p>   
         </div>
-        <div className="font2">NO ANGULAR COMPONENTS WERE HARMED IN MAKING OF THIS WEBSITE<br /><span className="font2 ContactSpanSection7">100% REACT.JS MADE</span></div>
-        {/* <div className="font2">100% REACT.JS MADE</div> */}
-        <div className="font3">© 2025 Rahul Ilipilla. All Rights Reserved</div>
+        <div className="font2 section7control">NO ANGULAR COMPONENTS WERE HARMED IN MAKING OF THIS WEBSITE<br /><span className="font2 ContactSpanSection7">100% REACT.JS MADE</span></div>
+        {/* <div className="font2 section7control">100% REACT.JS MADE</div> */}
+        <div className="font3 section7control">© 2025 Rahul Ilipilla. All Rights Reserved</div>
         </div>        
 
         </div>

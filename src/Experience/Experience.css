@@ -58,6 +58,7 @@
     width:6vw;
     /* position: relative;
     top: 4vh; */
+    margin-left: -83%;
     font-size: 0.8rem;
     border-radius: 5px;
     text-align: center;
@@ -227,6 +228,7 @@
     align-items: center;
     position: relative;
     left:6.8%;
+    gap:20%;
 }
 
 
@@ -271,6 +273,8 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    position: relative;
+    left:-3vw;
     /* align-items: center; */
 }
 
@@ -309,7 +313,7 @@
     display: grid;
     grid-template-rows: repeat(2, 2fr);
     grid-template-columns: repeat(2, 2fr);
-    gap:5rem;
+    gap:3rem;
     justify-items: center;
     /* align-items: center; */
 }

@@ -731,7 +731,8 @@ text-align: left;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    position: relative;
+    left:-8.3vh;
 }
 
 .ContactSpanSection7
@@ -744,4 +745,11 @@ text-align: left;
 {
     position: relative;
   
+}
+
+
+.section7control
+{
+    position: relative;
+    top:-8vh !important;
 }

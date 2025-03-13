@@ -6,7 +6,7 @@ import Code1 from "../Assets/Code11.mp4";
 import React from "../Assets/react1.svg";
 import  Typewriter  from "typewriter-effect";
 
-export default function CodingCard({code,svg,color,compiler,delay,pretext,lettersize,width1,cardwidth})
+export default function CodingCard({code,svg,color,compiler,delay,pretext,lettersize,width1,cardwidth,cardheight})
 {
 
   const contentRef = useRef(null);
@@ -48,7 +48,7 @@ export default function CodingCard({code,svg,color,compiler,delay,pretext,letter
   }, [typed, switch1, switch2, holder]);
     return(
         <>
-        <div style={{backgroundColor:compiler,width:`${cardwidth}vw`}} className="CodingCard CodingSVG" ref={contentRef}>
+        <div style={{backgroundColor:compiler,width:`${cardwidth}vw`,height:`${cardheight}vh`}} className="CodingCard CodingSVG" ref={contentRef}>
           {
               
           }   

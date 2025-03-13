@@ -1,4 +1,5 @@
 import Lottie from "lottie-react";
+import { useNavigate } from 'react-router-dom';
 // import ContactSVG from "../Jsons/json12.json";
 import ContactSVG from "../Jsons/json14.json";
 // import ContactSVG from "../Jsons/json22.json";
@@ -22,49 +23,57 @@ export default function Contact() {
             comment: comment,
         }; 
     
-        try {
-            const response = await fetch("http://localhost:8080/contactInfo/add", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(contactInfo),
+        // try {
+        //     const response = await fetch("http://localhost:8080/contactInfo/add", {
+        //         method: "POST",
+        //         headers: {
+        //             "Content-Type": "application/json",
+        //         },
+        //         body: JSON.stringify(contactInfo),
                 
-            });
+        //     });
 
-            if (!response.ok) {
-                throw new Error("Failed to submit data");
-            }
+        //     if (!response.ok) {
+        //         throw new Error("Failed to submit data");
+        //     }
 
-            const data = await response.json();
-            alert("Data submitted successfully!");
-            console.log("Success:", data);
+        //     const data = await response.json();
+        //     alert("Data submitted successfully!");
+        //     console.log("Success:", data);
 
-            //Send Emailing when submit
-            sendEmail(contactInfo);
+        //     //Send Emailing when submit
+        //     sendEmail(contactInfo);
 
-            // Clear the form after successful submission
-            setFirstName("");
-            setLastName("");
-            setEmail("");
-            setPhone("");
-            setComment("");
-        } catch (error) {
-            alert("Error submitting data.");
-            console.error("Error:", error);
-        }
+        //     // Clear the form after successful submission
+        //     setFirstName("");
+        //     setLastName("");
+        //     setEmail("");
+        //     setPhone("");
+        //     setComment("");
+        // } catch (error) {
+        //     alert("Error submitting data.");
+        //     console.error("Error:", error);
+        // }
     };
-    const sendEmail = (contactInfo) => {
-        emailjs
-            .send("service_92orvhj", "template_guoxkao", contactInfo)
-            .then(() => {
-                alert("Email sent successfully!");
-            })
-            .catch((error) => {
-                alert("Failed to send email.");
-                console.error("Email Error:", error);
-            });
-    };
+    // const sendEmail = (contactInfo) => {
+    //     emailjs
+    //         .send("service_92orvhj", "template_guoxkao", contactInfo)
+    //         .then(() => {
+    //             alert("Email sent successfully!");
+    //         })
+    //         .catch((error) => {
+    //             alert("Failed to send email.");
+    //             console.error("Email Error:", error);
+    //         });
+    // };
+
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        setTimeout(() => {
+            navigate('/Confirmation'); // Redirect after delay
+          }, 2000);
+      };
 
     return (
         <>
@@ -86,18 +95,19 @@ export default function Contact() {
 
                         <input type="text" className="ContactText" placeholder="Anything you want to say to spiderman?, or to me?" id="comment" value={comment} onChange={(e) => setComment(e.target.value)}></input>
 
-                        <button type="submit"className="ContactButton font3" onclick="sendEmail()">Submit</button>
+                        <button type="submit"className="ContactButton font3" onClick={handleButtonClick}>Submit</button>
                     </div>
                 </div>
                 <script type="text/javascript"
                     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
                 </script>
                 <script type="text/javascript">
-                    (function(){
+
+                    {/* (function(){
                              emailjs.init({
                              publicKey: "tjRFG0QlxJBXMBvYf"
                                  })
-                         })();
+                         })(); */}
              
                 </script>
 

@@ -1,0 +1,22 @@
+.Confirmation
+{
+    width:55%;
+    position: relative;
+    top:10vh;
+    margin: auto;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
+
+}
+
+.ConfirmationHeading
+{
+    position: absolute;
+    top:85vh;
+    left:30vw;
+}
